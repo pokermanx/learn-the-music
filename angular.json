@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "piano": {
+    "learn-the-music": {
       "projectType": "application",
       "schematics": {
         "@schematics/angular:component": {
@@ -17,7 +17,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:application",
           "options": {
-            "outputPath": "dist/piano",
+            "outputPath": "dist/learn-the-music",
             "index": "src/index.html",
             "browser": "src/main.ts",
             "polyfills": [
@@ -64,10 +64,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "buildTarget": "piano:build:production"
+              "buildTarget": "learn-the-music:build:production"
             },
             "development": {
-              "buildTarget": "piano:build:development"
+              "buildTarget": "learn-the-music:build:development"
             }
           },
           "defaultConfiguration": "development"
