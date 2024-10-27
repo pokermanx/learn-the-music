@@ -22,6 +22,10 @@ ul.lines li::before {
     height: 1px;
 }
 
+ul.chords {
+    padding-left: 80px;
+}
+
 ul.chords,
 ul.notes {
     position: absolute;
@@ -33,6 +37,21 @@ ul.notes {
         width: 100%;
         display: flex;
         align-items: center;
+
+        img.sharp {
+            width: 30px;
+            object-fit: contain;
+            position: absolute;
+            margin-left: 35px;
+        }
+
+        &.shifted {
+            margin-left: -19px;
+
+            span.tip {
+                margin-left: 20px;
+            }
+        }
     }
 
     li.crossed::before {
@@ -73,11 +92,11 @@ ul.notes {
     li.active span {
         display: block;
     }
-    
+
     li.shifted-up {
         transform: translateY(-15px);
     }
-    
+
     li.shifted-down {
         transform: translateY(15px);
     }
@@ -96,7 +115,7 @@ ul li::marker {
     height: 60px;
     position: relative;
 
-    img {
+    img.clef {
         margin-left: 45px;
         width: 35px;
         position: absolute;

@@ -3,6 +3,14 @@ export type Note = {
   name: string;
   legend: string;
   active?: boolean;
+  isSharp?: boolean;
   showTheLine?: boolean;
-  octave: number
+  shift?: boolean;
+  octave: number;
+};
+
+export type Chord = {
+  name: string;
+  description: string;
+  notes: string[];
 };

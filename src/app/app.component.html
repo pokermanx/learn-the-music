@@ -51,8 +51,8 @@
 </div>
 
 <div class="wrapper">
-  <img *ngIf="hand" src="./t-clef.png" class="t-clef" />
-  <img *ngIf="!hand" src="./b-clef.webp" class="b-clef" />
+  <img *ngIf="hand" src="./t-clef.png" class="clef t-clef" />
+  <img *ngIf="!hand" src="./b-clef.webp" class="clef b-clef" />
   <ul class="lines">
     <li></li>
     <li></li>
@@ -79,10 +79,11 @@
       [id]="note.id"
       [class.active]="note.active"
       [class.crossed]="note.showTheLine"
-      [class.shifted]="simpleOctave"
+      [class.shifted]="note.shift"
       [class.shifted-up]="simpleOctave && !hand"
       [class.shifted-down]="simpleOctave && hand"
     >
+      <img *ngIf="note.isSharp" src="./sharp.png" class="sharp">
       <span></span>
       <span *ngIf="tips" class="tip">{{ note.legend }}</span>
     </li>

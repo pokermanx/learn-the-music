@@ -1,5 +1,6249 @@
 [
     {
-        
+        "name": "C5",
+        "description": "C fifth with notes C G",
+        "notes": [
+            "C",
+            "G"
+        ]
+    },
+    {
+        "name": "C#5",
+        "description": "C sharp fifth with notes C# G#",
+        "notes": [
+            "C#",
+            "G#"
+        ]
+    },
+    {
+        "name": "Db5",
+        "description": "D flat fifth with notes C# G#",
+        "notes": [
+            "C#",
+            "G#"
+        ]
+    },
+    {
+        "name": "D5",
+        "description": "D fifth with notes D A",
+        "notes": [
+            "D",
+            "A"
+        ]
+    },
+    {
+        "name": "D#5",
+        "description": "D sharp fifth with notes D# A#",
+        "notes": [
+            "D#",
+            "A#"
+        ]
+    },
+    {
+        "name": "Eb5",
+        "description": "E flat fifth with notes D# A#",
+        "notes": [
+            "D#",
+            "A#"
+        ]
+    },
+    {
+        "name": "E5",
+        "description": "E fifth with notes E B",
+        "notes": [
+            "E",
+            "B"
+        ]
+    },
+    {
+        "name": "F5",
+        "description": "F fifth with notes F C",
+        "notes": [
+            "F",
+            "C"
+        ]
+    },
+    {
+        "name": "F#5",
+        "description": "F sharp fifth with notes F# C#",
+        "notes": [
+            "F#",
+            "C#"
+        ]
+    },
+    {
+        "name": "Gb5",
+        "description": "G flat fifth with notes F# C#",
+        "notes": [
+            "F#",
+            "C#"
+        ]
+    },
+    {
+        "name": "G5",
+        "description": "G fifth with notes G D",
+        "notes": [
+            "G",
+            "D"
+        ]
+    },
+    {
+        "name": "G#5",
+        "description": "G sharp fifth with notes G# D#",
+        "notes": [
+            "G#",
+            "D#"
+        ]
+    },
+    {
+        "name": "Ab5",
+        "description": "A flat fifth with notes G# D#",
+        "notes": [
+            "G#",
+            "D#"
+        ]
+    },
+    {
+        "name": "A5",
+        "description": "A fifth with notes A E",
+        "notes": [
+            "A",
+            "E"
+        ]
+    },
+    {
+        "name": "A#5",
+        "description": "A sharp fifth with notes A# F",
+        "notes": [
+            "A#",
+            "F"
+        ]
+    },
+    {
+        "name": "Bb5",
+        "description": "B flat fifth with notes A# F",
+        "notes": [
+            "A#",
+            "F"
+        ]
+    },
+    {
+        "name": "B5",
+        "description": "B fifth with notes B F#",
+        "notes": [
+            "B",
+            "F#"
+        ]
+    },
+    {
+        "name": "Csus4",
+        "description": "C suspended fourth with notes C F G",
+        "notes": [
+            "C",
+            "F",
+            "G"
+        ]
+    },
+    {
+        "name": "C#sus4",
+        "description": "C sharp suspended fourth with notes C# F# G#",
+        "notes": [
+            "C#",
+            "F#",
+            "G#"
+        ]
+    },
+    {
+        "name": "Dbsus4",
+        "description": "D flat suspended fourth with notes C# F# G#",
+        "notes": [
+            "C#",
+            "F#",
+            "G#"
+        ]
+    },
+    {
+        "name": "Dsus4",
+        "description": "D suspended fourth with notes D G A",
+        "notes": [
+            "D",
+            "G",
+            "A"
+        ]
+    },
+    {
+        "name": "D#sus4",
+        "description": "D sharp suspended fourth with notes D# G# A#",
+        "notes": [
+            "D#",
+            "G#",
+            "A#"
+        ]
+    },
+    {
+        "name": "Ebsus4",
+        "description": "E flat suspended fourth with notes D# G# A#",
+        "notes": [
+            "D#",
+            "G#",
+            "A#"
+        ]
+    },
+    {
+        "name": "Esus4",
+        "description": "E suspended fourth with notes E A B",
+        "notes": [
+            "E",
+            "A",
+            "B"
+        ]
+    },
+    {
+        "name": "Fsus4",
+        "description": "F suspended fourth with notes F A# C",
+        "notes": [
+            "F",
+            "A#",
+            "C"
+        ]
+    },
+    {
+        "name": "F#sus4",
+        "description": "F sharp suspended fourth with notes F# B C#",
+        "notes": [
+            "F#",
+            "B",
+            "C#"
+        ]
+    },
+    {
+        "name": "Gbsus4",
+        "description": "G flat suspended fourth with notes F# B C#",
+        "notes": [
+            "F#",
+            "B",
+            "C#"
+        ]
+    },
+    {
+        "name": "Gsus4",
+        "description": "G suspended fourth with notes G C D",
+        "notes": [
+            "G",
+            "C",
+            "D"
+        ]
+    },
+    {
+        "name": "G#sus4",
+        "description": "G sharp suspended fourth with notes G# C# D#",
+        "notes": [
+            "G#",
+            "C#",
+            "D#"
+        ]
+    },
+    {
+        "name": "Absus4",
+        "description": "A flat suspended fourth with notes G# C# D#",
+        "notes": [
+            "G#",
+            "C#",
+            "D#"
+        ]
+    },
+    {
+        "name": "Asus4",
+        "description": "A suspended fourth with notes A D E",
+        "notes": [
+            "A",
+            "D",
+            "E"
+        ]
+    },
+    {
+        "name": "A#sus4",
+        "description": "A sharp suspended fourth with notes A# D# F",
+        "notes": [
+            "A#",
+            "D#",
+            "F"
+        ]
+    },
+    {
+        "name": "Bbsus4",
+        "description": "B flat suspended fourth with notes A# D# F",
+        "notes": [
+            "A#",
+            "D#",
+            "F"
+        ]
+    },
+    {
+        "name": "Bsus4",
+        "description": "B suspended fourth with notes B E F#",
+        "notes": [
+            "B",
+            "E",
+            "F#"
+        ]
+    },
+    {
+        "name": "C7sus4",
+        "description": "C suspended fourth seventh with notes C F G A#",
+        "notes": [
+            "C",
+            "F",
+            "G",
+            "A#"
+        ]
+    },
+    {
+        "name": "C#7sus4",
+        "description": "C sharp suspended fourth seventh with notes C# F# G# B",
+        "notes": [
+            "C#",
+            "F#",
+            "G#",
+            "B"
+        ]
+    },
+    {
+        "name": "Db7sus4",
+        "description": "D flat suspended fourth seventh with notes C# F# G# B",
+        "notes": [
+            "C#",
+            "F#",
+            "G#",
+            "B"
+        ]
+    },
+    {
+        "name": "D7sus4",
+        "description": "D suspended fourth seventh with notes D G A C",
+        "notes": [
+            "D",
+            "G",
+            "A",
+            "C"
+        ]
+    },
+    {
+        "name": "D#7sus4",
+        "description": "D sharp suspended fourth seventh with notes D# G# A# C#",
+        "notes": [
+            "D#",
+            "G#",
+            "A#",
+            "C#"
+        ]
+    },
+    {
+        "name": "Eb7sus4",
+        "description": "E flat suspended fourth seventh with notes D# G# A# C#",
+        "notes": [
+            "D#",
+            "G#",
+            "A#",
+            "C#"
+        ]
+    },
+    {
+        "name": "E7sus4",
+        "description": "E suspended fourth seventh with notes E A B D",
+        "notes": [
+            "E",
+            "A",
+            "B",
+            "D"
+        ]
+    },
+    {
+        "name": "F7sus4",
+        "description": "F suspended fourth seventh with notes F A# C D#",
+        "notes": [
+            "F",
+            "A#",
+            "C",
+            "D#"
+        ]
+    },
+    {
+        "name": "F#7sus4",
+        "description": "F sharp suspended fourth seventh with notes F# B C# E",
+        "notes": [
+            "F#",
+            "B",
+            "C#",
+            "E"
+        ]
+    },
+    {
+        "name": "Gb7sus4",
+        "description": "G flat suspended fourth seventh with notes F# B C# E",
+        "notes": [
+            "F#",
+            "B",
+            "C#",
+            "E"
+        ]
+    },
+    {
+        "name": "G7sus4",
+        "description": "G suspended fourth seventh with notes G C D F",
+        "notes": [
+            "G",
+            "C",
+            "D",
+            "F"
+        ]
+    },
+    {
+        "name": "G#7sus4",
+        "description": "G sharp suspended fourth seventh with notes G# C# D# F#",
+        "notes": [
+            "G#",
+            "C#",
+            "D#",
+            "F#"
+        ]
+    },
+    {
+        "name": "Ab7sus4",
+        "description": "A flat suspended fourth seventh with notes G# C# D# F#",
+        "notes": [
+            "G#",
+            "C#",
+            "D#",
+            "F#"
+        ]
+    },
+    {
+        "name": "A7sus4",
+        "description": "A suspended fourth seventh with notes A D E G",
+        "notes": [
+            "A",
+            "D",
+            "E",
+            "G"
+        ]
+    },
+    {
+        "name": "A#7sus4",
+        "description": "A sharp suspended fourth seventh with notes A# D# F G#",
+        "notes": [
+            "A#",
+            "D#",
+            "F",
+            "G#"
+        ]
+    },
+    {
+        "name": "Bb7sus4",
+        "description": "B flat suspended fourth seventh with notes A# D# F G#",
+        "notes": [
+            "A#",
+            "D#",
+            "F",
+            "G#"
+        ]
+    },
+    {
+        "name": "B7sus4",
+        "description": "B suspended fourth seventh with notes B E F# A",
+        "notes": [
+            "B",
+            "E",
+            "F#",
+            "A"
+        ]
+    },
+    {
+        "name": "Caug",
+        "description": "C augmented with notes C E G#",
+        "notes": [
+            "C",
+            "E",
+            "G#"
+        ]
+    },
+    {
+        "name": "C#aug",
+        "description": "C sharp augmented with notes C# F A",
+        "notes": [
+            "C#",
+            "F",
+            "A"
+        ]
+    },
+    {
+        "name": "Dbaug",
+        "description": "D flat augmented with notes C# F A",
+        "notes": [
+            "C#",
+            "F",
+            "A"
+        ]
+    },
+    {
+        "name": "Daug",
+        "description": "D augmented with notes D F# A#",
+        "notes": [
+            "D",
+            "F#",
+            "A#"
+        ]
+    },
+    {
+        "name": "D#aug",
+        "description": "D sharp augmented with notes D# G B",
+        "notes": [
+            "D#",
+            "G",
+            "B"
+        ]
+    },
+    {
+        "name": "Ebaug",
+        "description": "E flat augmented with notes D# G B",
+        "notes": [
+            "D#",
+            "G",
+            "B"
+        ]
+    },
+    {
+        "name": "Eaug",
+        "description": "E augmented with notes E G# C",
+        "notes": [
+            "E",
+            "G#",
+            "C"
+        ]
+    },
+    {
+        "name": "Faug",
+        "description": "F augmented with notes F A C#",
+        "notes": [
+            "F",
+            "A",
+            "C#"
+        ]
+    },
+    {
+        "name": "F#aug",
+        "description": "F sharp augmented with notes F# A# D",
+        "notes": [
+            "F#",
+            "A#",
+            "D"
+        ]
+    },
+    {
+        "name": "Gbaug",
+        "description": "G flat augmented with notes F# A# D",
+        "notes": [
+            "F#",
+            "A#",
+            "D"
+        ]
+    },
+    {
+        "name": "Gaug",
+        "description": "G augmented with notes G B D#",
+        "notes": [
+            "G",
+            "B",
+            "D#"
+        ]
+    },
+    {
+        "name": "G#aug",
+        "description": "G sharp augmented with notes G# C E",
+        "notes": [
+            "G#",
+            "C",
+            "E"
+        ]
+    },
+    {
+        "name": "Abaug",
+        "description": "A flat augmented with notes G# C E",
+        "notes": [
+            "G#",
+            "C",
+            "E"
+        ]
+    },
+    {
+        "name": "Aaug",
+        "description": "A augmented with notes A C# F",
+        "notes": [
+            "A",
+            "C#",
+            "F"
+        ]
+    },
+    {
+        "name": "A#aug",
+        "description": "A sharp augmented with notes A# D F#",
+        "notes": [
+            "A#",
+            "D",
+            "F#"
+        ]
+    },
+    {
+        "name": "Bbaug",
+        "description": "B flat augmented with notes A# D F#",
+        "notes": [
+            "A#",
+            "D",
+            "F#"
+        ]
+    },
+    {
+        "name": "Baug",
+        "description": "B augmented with notes B D# G",
+        "notes": [
+            "B",
+            "D#",
+            "G"
+        ]
+    },
+    {
+        "name": "CM7b6",
+        "description": "C major seventh flat sixth with notes C E G# B",
+        "notes": [
+            "C",
+            "E",
+            "G#",
+            "B"
+        ]
+    },
+    {
+        "name": "C#M7b6",
+        "description": "C sharp major seventh flat sixth with notes C# F A C",
+        "notes": [
+            "C#",
+            "F",
+            "A",
+            "C"
+        ]
+    },
+    {
+        "name": "DbM7b6",
+        "description": "D flat major seventh flat sixth with notes C# F A C",
+        "notes": [
+            "C#",
+            "F",
+            "A",
+            "C"
+        ]
+    },
+    {
+        "name": "DM7b6",
+        "description": "D major seventh flat sixth with notes D F# A# C#",
+        "notes": [
+            "D",
+            "F#",
+            "A#",
+            "C#"
+        ]
+    },
+    {
+        "name": "D#M7b6",
+        "description": "D sharp major seventh flat sixth with notes D# G B D",
+        "notes": [
+            "D#",
+            "G",
+            "B",
+            "D"
+        ]
+    },
+    {
+        "name": "EbM7b6",
+        "description": "E flat major seventh flat sixth with notes D# G B D",
+        "notes": [
+            "D#",
+            "G",
+            "B",
+            "D"
+        ]
+    },
+    {
+        "name": "EM7b6",
+        "description": "E major seventh flat sixth with notes E G# C D#",
+        "notes": [
+            "E",
+            "G#",
+            "C",
+            "D#"
+        ]
+    },
+    {
+        "name": "FM7b6",
+        "description": "F major seventh flat sixth with notes F A C# E",
+        "notes": [
+            "F",
+            "A",
+            "C#",
+            "E"
+        ]
+    },
+    {
+        "name": "F#M7b6",
+        "description": "F sharp major seventh flat sixth with notes F# A# D F",
+        "notes": [
+            "F#",
+            "A#",
+            "D",
+            "F"
+        ]
+    },
+    {
+        "name": "GbM7b6",
+        "description": "G flat major seventh flat sixth with notes F# A# D F",
+        "notes": [
+            "F#",
+            "A#",
+            "D",
+            "F"
+        ]
+    },
+    {
+        "name": "GM7b6",
+        "description": "G major seventh flat sixth with notes G B D# F#",
+        "notes": [
+            "G",
+            "B",
+            "D#",
+            "F#"
+        ]
+    },
+    {
+        "name": "G#M7b6",
+        "description": "G sharp major seventh flat sixth with notes G# C E G",
+        "notes": [
+            "G#",
+            "C",
+            "E",
+            "G"
+        ]
+    },
+    {
+        "name": "AbM7b6",
+        "description": "A flat major seventh flat sixth with notes G# C E G",
+        "notes": [
+            "G#",
+            "C",
+            "E",
+            "G"
+        ]
+    },
+    {
+        "name": "AM7b6",
+        "description": "A major seventh flat sixth with notes A C# F G#",
+        "notes": [
+            "A",
+            "C#",
+            "F",
+            "G#"
+        ]
+    },
+    {
+        "name": "A#M7b6",
+        "description": "A sharp major seventh flat sixth with notes A# D F# A",
+        "notes": [
+            "A#",
+            "D",
+            "F#",
+            "A"
+        ]
+    },
+    {
+        "name": "BbM7b6",
+        "description": "B flat major seventh flat sixth with notes A# D F# A",
+        "notes": [
+            "A#",
+            "D",
+            "F#",
+            "A"
+        ]
+    },
+    {
+        "name": "BM7b6",
+        "description": "B major seventh flat sixth with notes B D# G A#",
+        "notes": [
+            "B",
+            "D#",
+            "G",
+            "A#"
+        ]
+    },
+    {
+        "name": "Cmaj7#5",
+        "description": "C augmented seventh with notes C E G# B",
+        "notes": [
+            "C",
+            "E",
+            "G#",
+            "B"
+        ]
+    },
+    {
+        "name": "C#maj7#5",
+        "description": "C sharp augmented seventh with notes C# F A C",
+        "notes": [
+            "C#",
+            "F",
+            "A",
+            "C"
+        ]
+    },
+    {
+        "name": "Dbmaj7#5",
+        "description": "D flat augmented seventh with notes C# F A C",
+        "notes": [
+            "C#",
+            "F",
+            "A",
+            "C"
+        ]
+    },
+    {
+        "name": "Dmaj7#5",
+        "description": "D augmented seventh with notes D F# A# C#",
+        "notes": [
+            "D",
+            "F#",
+            "A#",
+            "C#"
+        ]
+    },
+    {
+        "name": "D#maj7#5",
+        "description": "D sharp augmented seventh with notes D# G B D",
+        "notes": [
+            "D#",
+            "G",
+            "B",
+            "D"
+        ]
+    },
+    {
+        "name": "Ebmaj7#5",
+        "description": "E flat augmented seventh with notes D# G B D",
+        "notes": [
+            "D#",
+            "G",
+            "B",
+            "D"
+        ]
+    },
+    {
+        "name": "Emaj7#5",
+        "description": "E augmented seventh with notes E G# C D#",
+        "notes": [
+            "E",
+            "G#",
+            "C",
+            "D#"
+        ]
+    },
+    {
+        "name": "Fmaj7#5",
+        "description": "F augmented seventh with notes F A C# E",
+        "notes": [
+            "F",
+            "A",
+            "C#",
+            "E"
+        ]
+    },
+    {
+        "name": "F#maj7#5",
+        "description": "F sharp augmented seventh with notes F# A# D F",
+        "notes": [
+            "F#",
+            "A#",
+            "D",
+            "F"
+        ]
+    },
+    {
+        "name": "Gbmaj7#5",
+        "description": "G flat augmented seventh with notes F# A# D F",
+        "notes": [
+            "F#",
+            "A#",
+            "D",
+            "F"
+        ]
+    },
+    {
+        "name": "Gmaj7#5",
+        "description": "G augmented seventh with notes G B D# F#",
+        "notes": [
+            "G",
+            "B",
+            "D#",
+            "F#"
+        ]
+    },
+    {
+        "name": "G#maj7#5",
+        "description": "G sharp augmented seventh with notes G# C E G",
+        "notes": [
+            "G#",
+            "C",
+            "E",
+            "G"
+        ]
+    },
+    {
+        "name": "Abmaj7#5",
+        "description": "A flat augmented seventh with notes G# C E G",
+        "notes": [
+            "G#",
+            "C",
+            "E",
+            "G"
+        ]
+    },
+    {
+        "name": "Amaj7#5",
+        "description": "A augmented seventh with notes A C# F G#",
+        "notes": [
+            "A",
+            "C#",
+            "F",
+            "G#"
+        ]
+    },
+    {
+        "name": "A#maj7#5",
+        "description": "A sharp augmented seventh with notes A# D F# A",
+        "notes": [
+            "A#",
+            "D",
+            "F#",
+            "A"
+        ]
+    },
+    {
+        "name": "Bbmaj7#5",
+        "description": "B flat augmented seventh with notes A# D F# A",
+        "notes": [
+            "A#",
+            "D",
+            "F#",
+            "A"
+        ]
+    },
+    {
+        "name": "Bmaj7#5",
+        "description": "B augmented seventh with notes B D# G A#",
+        "notes": [
+            "B",
+            "D#",
+            "G",
+            "A#"
+        ]
+    },
+    {
+        "name": "CM",
+        "description": "C major with notes C E G",
+        "notes": [
+            "C",
+            "E",
+            "G"
+        ]
+    },
+    {
+        "name": "C#M",
+        "description": "C sharp major with notes C# F G#",
+        "notes": [
+            "C#",
+            "F",
+            "G#"
+        ]
+    },
+    {
+        "name": "DbM",
+        "description": "D flat major with notes C# F G#",
+        "notes": [
+            "C#",
+            "F",
+            "G#"
+        ]
+    },
+    {
+        "name": "DM",
+        "description": "D major with notes D F# A",
+        "notes": [
+            "D",
+            "F#",
+            "A"
+        ]
+    },
+    {
+        "name": "D#M",
+        "description": "D sharp major with notes D# G A#",
+        "notes": [
+            "D#",
+            "G",
+            "A#"
+        ]
+    },
+    {
+        "name": "EbM",
+        "description": "E flat major with notes D# G A#",
+        "notes": [
+            "D#",
+            "G",
+            "A#"
+        ]
+    },
+    {
+        "name": "EM",
+        "description": "E major with notes E G# B",
+        "notes": [
+            "E",
+            "G#",
+            "B"
+        ]
+    },
+    {
+        "name": "FM",
+        "description": "F major with notes F A C",
+        "notes": [
+            "F",
+            "A",
+            "C"
+        ]
+    },
+    {
+        "name": "F#M",
+        "description": "F sharp major with notes F# A# C#",
+        "notes": [
+            "F#",
+            "A#",
+            "C#"
+        ]
+    },
+    {
+        "name": "GbM",
+        "description": "G flat major with notes F# A# C#",
+        "notes": [
+            "F#",
+            "A#",
+            "C#"
+        ]
+    },
+    {
+        "name": "GM",
+        "description": "G major with notes G B D",
+        "notes": [
+            "G",
+            "B",
+            "D"
+        ]
+    },
+    {
+        "name": "G#M",
+        "description": "G sharp major with notes G# C D#",
+        "notes": [
+            "G#",
+            "C",
+            "D#"
+        ]
+    },
+    {
+        "name": "AbM",
+        "description": "A flat major with notes G# C D#",
+        "notes": [
+            "G#",
+            "C",
+            "D#"
+        ]
+    },
+    {
+        "name": "AM",
+        "description": "A major with notes A C# E",
+        "notes": [
+            "A",
+            "C#",
+            "E"
+        ]
+    },
+    {
+        "name": "A#M",
+        "description": "A sharp major with notes A# D F",
+        "notes": [
+            "A#",
+            "D",
+            "F"
+        ]
+    },
+    {
+        "name": "BbM",
+        "description": "B flat major with notes A# D F",
+        "notes": [
+            "A#",
+            "D",
+            "F"
+        ]
+    },
+    {
+        "name": "BM",
+        "description": "B major with notes B D# F#",
+        "notes": [
+            "B",
+            "D#",
+            "F#"
+        ]
+    },
+    {
+        "name": "Cmaj7",
+        "description": "C major seventh with notes C E G B",
+        "notes": [
+            "C",
+            "E",
+            "G",
+            "B"
+        ]
+    },
+    {
+        "name": "C#maj7",
+        "description": "C sharp major seventh with notes C# F G# C",
+        "notes": [
+            "C#",
+            "F",
+            "G#",
+            "C"
+        ]
+    },
+    {
+        "name": "Dbmaj7",
+        "description": "D flat major seventh with notes C# F G# C",
+        "notes": [
+            "C#",
+            "F",
+            "G#",
+            "C"
+        ]
+    },
+    {
+        "name": "Dmaj7",
+        "description": "D major seventh with notes D F# A C#",
+        "notes": [
+            "D",
+            "F#",
+            "A",
+            "C#"
+        ]
+    },
+    {
+        "name": "D#maj7",
+        "description": "D sharp major seventh with notes D# G A# D",
+        "notes": [
+            "D#",
+            "G",
+            "A#",
+            "D"
+        ]
+    },
+    {
+        "name": "Ebmaj7",
+        "description": "E flat major seventh with notes D# G A# D",
+        "notes": [
+            "D#",
+            "G",
+            "A#",
+            "D"
+        ]
+    },
+    {
+        "name": "Emaj7",
+        "description": "E major seventh with notes E G# B D#",
+        "notes": [
+            "E",
+            "G#",
+            "B",
+            "D#"
+        ]
+    },
+    {
+        "name": "Fmaj7",
+        "description": "F major seventh with notes F A C E",
+        "notes": [
+            "F",
+            "A",
+            "C",
+            "E"
+        ]
+    },
+    {
+        "name": "F#maj7",
+        "description": "F sharp major seventh with notes F# A# C# F",
+        "notes": [
+            "F#",
+            "A#",
+            "C#",
+            "F"
+        ]
+    },
+    {
+        "name": "Gbmaj7",
+        "description": "G flat major seventh with notes F# A# C# F",
+        "notes": [
+            "F#",
+            "A#",
+            "C#",
+            "F"
+        ]
+    },
+    {
+        "name": "Gmaj7",
+        "description": "G major seventh with notes G B D F#",
+        "notes": [
+            "G",
+            "B",
+            "D",
+            "F#"
+        ]
+    },
+    {
+        "name": "G#maj7",
+        "description": "G sharp major seventh with notes G# C D# G",
+        "notes": [
+            "G#",
+            "C",
+            "D#",
+            "G"
+        ]
+    },
+    {
+        "name": "Abmaj7",
+        "description": "A flat major seventh with notes G# C D# G",
+        "notes": [
+            "G#",
+            "C",
+            "D#",
+            "G"
+        ]
+    },
+    {
+        "name": "Amaj7",
+        "description": "A major seventh with notes A C# E G#",
+        "notes": [
+            "A",
+            "C#",
+            "E",
+            "G#"
+        ]
+    },
+    {
+        "name": "A#maj7",
+        "description": "A sharp major seventh with notes A# D F A",
+        "notes": [
+            "A#",
+            "D",
+            "F",
+            "A"
+        ]
+    },
+    {
+        "name": "Bbmaj7",
+        "description": "B flat major seventh with notes A# D F A",
+        "notes": [
+            "A#",
+            "D",
+            "F",
+            "A"
+        ]
+    },
+    {
+        "name": "Bmaj7",
+        "description": "B major seventh with notes B D# F# A#",
+        "notes": [
+            "B",
+            "D#",
+            "F#",
+            "A#"
+        ]
+    },
+    {
+        "name": "C7",
+        "description": "C dominant seventh with notes C E G A#",
+        "notes": [
+            "C",
+            "E",
+            "G",
+            "A#"
+        ]
+    },
+    {
+        "name": "C#7",
+        "description": "C sharp dominant seventh with notes C# F G# B",
+        "notes": [
+            "C#",
+            "F",
+            "G#",
+            "B"
+        ]
+    },
+    {
+        "name": "Db7",
+        "description": "D flat dominant seventh with notes C# F G# B",
+        "notes": [
+            "C#",
+            "F",
+            "G#",
+            "B"
+        ]
+    },
+    {
+        "name": "D7",
+        "description": "D dominant seventh with notes D F# A C",
+        "notes": [
+            "D",
+            "F#",
+            "A",
+            "C"
+        ]
+    },
+    {
+        "name": "D#7",
+        "description": "D sharp dominant seventh with notes D# G A# C#",
+        "notes": [
+            "D#",
+            "G",
+            "A#",
+            "C#"
+        ]
+    },
+    {
+        "name": "Eb7",
+        "description": "E flat dominant seventh with notes D# G A# C#",
+        "notes": [
+            "D#",
+            "G",
+            "A#",
+            "C#"
+        ]
+    },
+    {
+        "name": "E7",
+        "description": "E dominant seventh with notes E G# B D",
+        "notes": [
+            "E",
+            "G#",
+            "B",
+            "D"
+        ]
+    },
+    {
+        "name": "F7",
+        "description": "F dominant seventh with notes F A C D#",
+        "notes": [
+            "F",
+            "A",
+            "C",
+            "D#"
+        ]
+    },
+    {
+        "name": "F#7",
+        "description": "F sharp dominant seventh with notes F# A# C# E",
+        "notes": [
+            "F#",
+            "A#",
+            "C#",
+            "E"
+        ]
+    },
+    {
+        "name": "Gb7",
+        "description": "G flat dominant seventh with notes F# A# C# E",
+        "notes": [
+            "F#",
+            "A#",
+            "C#",
+            "E"
+        ]
+    },
+    {
+        "name": "G7",
+        "description": "G dominant seventh with notes G B D F",
+        "notes": [
+            "G",
+            "B",
+            "D",
+            "F"
+        ]
+    },
+    {
+        "name": "G#7",
+        "description": "G sharp dominant seventh with notes G# C D# F#",
+        "notes": [
+            "G#",
+            "C",
+            "D#",
+            "F#"
+        ]
+    },
+    {
+        "name": "Ab7",
+        "description": "A flat dominant seventh with notes G# C D# F#",
+        "notes": [
+            "G#",
+            "C",
+            "D#",
+            "F#"
+        ]
+    },
+    {
+        "name": "A7",
+        "description": "A dominant seventh with notes A C# E G",
+        "notes": [
+            "A",
+            "C#",
+            "E",
+            "G"
+        ]
+    },
+    {
+        "name": "A#7",
+        "description": "A sharp dominant seventh with notes A# D F G#",
+        "notes": [
+            "A#",
+            "D",
+            "F",
+            "G#"
+        ]
+    },
+    {
+        "name": "Bb7",
+        "description": "B flat dominant seventh with notes A# D F G#",
+        "notes": [
+            "A#",
+            "D",
+            "F",
+            "G#"
+        ]
+    },
+    {
+        "name": "B7",
+        "description": "B dominant seventh with notes B D# F# A",
+        "notes": [
+            "B",
+            "D#",
+            "F#",
+            "A"
+        ]
+    },
+    {
+        "name": "C6",
+        "description": "C sixth with notes C E G A",
+        "notes": [
+            "C",
+            "E",
+            "G",
+            "A"
+        ]
+    },
+    {
+        "name": "C#6",
+        "description": "C sharp sixth with notes C# F G# A#",
+        "notes": [
+            "C#",
+            "F",
+            "G#",
+            "A#"
+        ]
+    },
+    {
+        "name": "Db6",
+        "description": "D flat sixth with notes C# F G# A#",
+        "notes": [
+            "C#",
+            "F",
+            "G#",
+            "A#"
+        ]
+    },
+    {
+        "name": "D6",
+        "description": "D sixth with notes D F# A B",
+        "notes": [
+            "D",
+            "F#",
+            "A",
+            "B"
+        ]
+    },
+    {
+        "name": "D#6",
+        "description": "D sharp sixth with notes D# G A# C",
+        "notes": [
+            "D#",
+            "G",
+            "A#",
+            "C"
+        ]
+    },
+    {
+        "name": "Eb6",
+        "description": "E flat sixth with notes D# G A# C",
+        "notes": [
+            "D#",
+            "G",
+            "A#",
+            "C"
+        ]
+    },
+    {
+        "name": "E6",
+        "description": "E sixth with notes E G# B C#",
+        "notes": [
+            "E",
+            "G#",
+            "B",
+            "C#"
+        ]
+    },
+    {
+        "name": "F6",
+        "description": "F sixth with notes F A C D",
+        "notes": [
+            "F",
+            "A",
+            "C",
+            "D"
+        ]
+    },
+    {
+        "name": "F#6",
+        "description": "F sharp sixth with notes F# A# C# D#",
+        "notes": [
+            "F#",
+            "A#",
+            "C#",
+            "D#"
+        ]
+    },
+    {
+        "name": "Gb6",
+        "description": "G flat sixth with notes F# A# C# D#",
+        "notes": [
+            "F#",
+            "A#",
+            "C#",
+            "D#"
+        ]
+    },
+    {
+        "name": "G6",
+        "description": "G sixth with notes G B D E",
+        "notes": [
+            "G",
+            "B",
+            "D",
+            "E"
+        ]
+    },
+    {
+        "name": "G#6",
+        "description": "G sharp sixth with notes G# C D# F",
+        "notes": [
+            "G#",
+            "C",
+            "D#",
+            "F"
+        ]
+    },
+    {
+        "name": "Ab6",
+        "description": "A flat sixth with notes G# C D# F",
+        "notes": [
+            "G#",
+            "C",
+            "D#",
+            "F"
+        ]
+    },
+    {
+        "name": "A6",
+        "description": "A sixth with notes A C# E F#",
+        "notes": [
+            "A",
+            "C#",
+            "E",
+            "F#"
+        ]
+    },
+    {
+        "name": "A#6",
+        "description": "A sharp sixth with notes A# D F G",
+        "notes": [
+            "A#",
+            "D",
+            "F",
+            "G"
+        ]
+    },
+    {
+        "name": "Bb6",
+        "description": "B flat sixth with notes A# D F G",
+        "notes": [
+            "A#",
+            "D",
+            "F",
+            "G"
+        ]
+    },
+    {
+        "name": "B6",
+        "description": "B sixth with notes B D# F# G#",
+        "notes": [
+            "B",
+            "D#",
+            "F#",
+            "G#"
+        ]
+    },
+    {
+        "name": "Cmaj#4",
+        "description": "C major seventh sharp eleventh with notes C E G B F#",
+        "notes": [
+            "C",
+            "E",
+            "G",
+            "B",
+            "F#"
+        ]
+    },
+    {
+        "name": "C#maj#4",
+        "description": "C sharp major seventh sharp eleventh with notes C# F G# C G",
+        "notes": [
+            "C#",
+            "F",
+            "G#",
+            "C",
+            "G"
+        ]
+    },
+    {
+        "name": "Dbmaj#4",
+        "description": "D flat major seventh sharp eleventh with notes C# F G# C G",
+        "notes": [
+            "C#",
+            "F",
+            "G#",
+            "C",
+            "G"
+        ]
+    },
+    {
+        "name": "Dmaj#4",
+        "description": "D major seventh sharp eleventh with notes D F# A C# G#",
+        "notes": [
+            "D",
+            "F#",
+            "A",
+            "C#",
+            "G#"
+        ]
+    },
+    {
+        "name": "D#maj#4",
+        "description": "D sharp major seventh sharp eleventh with notes D# G A# D A",
+        "notes": [
+            "D#",
+            "G",
+            "A#",
+            "D",
+            "A"
+        ]
+    },
+    {
+        "name": "Ebmaj#4",
+        "description": "E flat major seventh sharp eleventh with notes D# G A# D A",
+        "notes": [
+            "D#",
+            "G",
+            "A#",
+            "D",
+            "A"
+        ]
+    },
+    {
+        "name": "Emaj#4",
+        "description": "E major seventh sharp eleventh with notes E G# B D# A#",
+        "notes": [
+            "E",
+            "G#",
+            "B",
+            "D#",
+            "A#"
+        ]
+    },
+    {
+        "name": "Fmaj#4",
+        "description": "F major seventh sharp eleventh with notes F A C E B",
+        "notes": [
+            "F",
+            "A",
+            "C",
+            "E",
+            "B"
+        ]
+    },
+    {
+        "name": "F#maj#4",
+        "description": "F sharp major seventh sharp eleventh with notes F# A# C# F C",
+        "notes": [
+            "F#",
+            "A#",
+            "C#",
+            "F",
+            "C"
+        ]
+    },
+    {
+        "name": "Gbmaj#4",
+        "description": "G flat major seventh sharp eleventh with notes F# A# C# F C",
+        "notes": [
+            "F#",
+            "A#",
+            "C#",
+            "F",
+            "C"
+        ]
+    },
+    {
+        "name": "Gmaj#4",
+        "description": "G major seventh sharp eleventh with notes G B D F# C#",
+        "notes": [
+            "G",
+            "B",
+            "D",
+            "F#",
+            "C#"
+        ]
+    },
+    {
+        "name": "G#maj#4",
+        "description": "G sharp major seventh sharp eleventh with notes G# C D# G D",
+        "notes": [
+            "G#",
+            "C",
+            "D#",
+            "G",
+            "D"
+        ]
+    },
+    {
+        "name": "Abmaj#4",
+        "description": "A flat major seventh sharp eleventh with notes G# C D# G D",
+        "notes": [
+            "G#",
+            "C",
+            "D#",
+            "G",
+            "D"
+        ]
+    },
+    {
+        "name": "Amaj#4",
+        "description": "A major seventh sharp eleventh with notes A C# E G# D#",
+        "notes": [
+            "A",
+            "C#",
+            "E",
+            "G#",
+            "D#"
+        ]
+    },
+    {
+        "name": "A#maj#4",
+        "description": "A sharp major seventh sharp eleventh with notes A# D F A E",
+        "notes": [
+            "A#",
+            "D",
+            "F",
+            "A",
+            "E"
+        ]
+    },
+    {
+        "name": "Bbmaj#4",
+        "description": "B flat major seventh sharp eleventh with notes A# D F A E",
+        "notes": [
+            "A#",
+            "D",
+            "F",
+            "A",
+            "E"
+        ]
+    },
+    {
+        "name": "Bmaj#4",
+        "description": "B major seventh sharp eleventh with notes B D# F# A# F",
+        "notes": [
+            "B",
+            "D#",
+            "F#",
+            "A#",
+            "F"
+        ]
+    },
+    {
+        "name": "C7#11",
+        "description": "C lydian dominant seventh with notes C E G A# F#",
+        "notes": [
+            "C",
+            "E",
+            "G",
+            "A#",
+            "F#"
+        ]
+    },
+    {
+        "name": "C#7#11",
+        "description": "C sharp lydian dominant seventh with notes C# F G# B G",
+        "notes": [
+            "C#",
+            "F",
+            "G#",
+            "B",
+            "G"
+        ]
+    },
+    {
+        "name": "Db7#11",
+        "description": "D flat lydian dominant seventh with notes C# F G# B G",
+        "notes": [
+            "C#",
+            "F",
+            "G#",
+            "B",
+            "G"
+        ]
+    },
+    {
+        "name": "D7#11",
+        "description": "D lydian dominant seventh with notes D F# A C G#",
+        "notes": [
+            "D",
+            "F#",
+            "A",
+            "C",
+            "G#"
+        ]
+    },
+    {
+        "name": "D#7#11",
+        "description": "D sharp lydian dominant seventh with notes D# G A# C# A",
+        "notes": [
+            "D#",
+            "G",
+            "A#",
+            "C#",
+            "A"
+        ]
+    },
+    {
+        "name": "Eb7#11",
+        "description": "E flat lydian dominant seventh with notes D# G A# C# A",
+        "notes": [
+            "D#",
+            "G",
+            "A#",
+            "C#",
+            "A"
+        ]
+    },
+    {
+        "name": "E7#11",
+        "description": "E lydian dominant seventh with notes E G# B D A#",
+        "notes": [
+            "E",
+            "G#",
+            "B",
+            "D",
+            "A#"
+        ]
+    },
+    {
+        "name": "F7#11",
+        "description": "F lydian dominant seventh with notes F A C D# B",
+        "notes": [
+            "F",
+            "A",
+            "C",
+            "D#",
+            "B"
+        ]
+    },
+    {
+        "name": "F#7#11",
+        "description": "F sharp lydian dominant seventh with notes F# A# C# E C",
+        "notes": [
+            "F#",
+            "A#",
+            "C#",
+            "E",
+            "C"
+        ]
+    },
+    {
+        "name": "Gb7#11",
+        "description": "G flat lydian dominant seventh with notes F# A# C# E C",
+        "notes": [
+            "F#",
+            "A#",
+            "C#",
+            "E",
+            "C"
+        ]
+    },
+    {
+        "name": "G7#11",
+        "description": "G lydian dominant seventh with notes G B D F C#",
+        "notes": [
+            "G",
+            "B",
+            "D",
+            "F",
+            "C#"
+        ]
+    },
+    {
+        "name": "G#7#11",
+        "description": "G sharp lydian dominant seventh with notes G# C D# F# D",
+        "notes": [
+            "G#",
+            "C",
+            "D#",
+            "F#",
+            "D"
+        ]
+    },
+    {
+        "name": "Ab7#11",
+        "description": "A flat lydian dominant seventh with notes G# C D# F# D",
+        "notes": [
+            "G#",
+            "C",
+            "D#",
+            "F#",
+            "D"
+        ]
+    },
+    {
+        "name": "A7#11",
+        "description": "A lydian dominant seventh with notes A C# E G D#",
+        "notes": [
+            "A",
+            "C#",
+            "E",
+            "G",
+            "D#"
+        ]
+    },
+    {
+        "name": "A#7#11",
+        "description": "A sharp lydian dominant seventh with notes A# D F G# E",
+        "notes": [
+            "A#",
+            "D",
+            "F",
+            "G#",
+            "E"
+        ]
+    },
+    {
+        "name": "Bb7#11",
+        "description": "B flat lydian dominant seventh with notes A# D F G# E",
+        "notes": [
+            "A#",
+            "D",
+            "F",
+            "G#",
+            "E"
+        ]
+    },
+    {
+        "name": "B7#11",
+        "description": "B lydian dominant seventh with notes B D# F# A F",
+        "notes": [
+            "B",
+            "D#",
+            "F#",
+            "A",
+            "F"
+        ]
+    },
+    {
+        "name": "Cm#5",
+        "description": "C minor augmented with notes C D# G#",
+        "notes": [
+            "C",
+            "D#",
+            "G#"
+        ]
+    },
+    {
+        "name": "C#m#5",
+        "description": "C sharp minor augmented with notes C# E A",
+        "notes": [
+            "C#",
+            "E",
+            "A"
+        ]
+    },
+    {
+        "name": "Dbm#5",
+        "description": "D flat minor augmented with notes C# E A",
+        "notes": [
+            "C#",
+            "E",
+            "A"
+        ]
+    },
+    {
+        "name": "Dm#5",
+        "description": "D minor augmented with notes D F A#",
+        "notes": [
+            "D",
+            "F",
+            "A#"
+        ]
+    },
+    {
+        "name": "D#m#5",
+        "description": "D sharp minor augmented with notes D# F# B",
+        "notes": [
+            "D#",
+            "F#",
+            "B"
+        ]
+    },
+    {
+        "name": "Ebm#5",
+        "description": "E flat minor augmented with notes D# F# B",
+        "notes": [
+            "D#",
+            "F#",
+            "B"
+        ]
+    },
+    {
+        "name": "Em#5",
+        "description": "E minor augmented with notes E G C",
+        "notes": [
+            "E",
+            "G",
+            "C"
+        ]
+    },
+    {
+        "name": "Fm#5",
+        "description": "F minor augmented with notes F G# C#",
+        "notes": [
+            "F",
+            "G#",
+            "C#"
+        ]
+    },
+    {
+        "name": "F#m#5",
+        "description": "F sharp minor augmented with notes F# A D",
+        "notes": [
+            "F#",
+            "A",
+            "D"
+        ]
+    },
+    {
+        "name": "Gbm#5",
+        "description": "G flat minor augmented with notes F# A D",
+        "notes": [
+            "F#",
+            "A",
+            "D"
+        ]
+    },
+    {
+        "name": "Gm#5",
+        "description": "G minor augmented with notes G A# D#",
+        "notes": [
+            "G",
+            "A#",
+            "D#"
+        ]
+    },
+    {
+        "name": "G#m#5",
+        "description": "G sharp minor augmented with notes G# B E",
+        "notes": [
+            "G#",
+            "B",
+            "E"
+        ]
+    },
+    {
+        "name": "Abm#5",
+        "description": "A flat minor augmented with notes G# B E",
+        "notes": [
+            "G#",
+            "B",
+            "E"
+        ]
+    },
+    {
+        "name": "Am#5",
+        "description": "A minor augmented with notes A C F",
+        "notes": [
+            "A",
+            "C",
+            "F"
+        ]
+    },
+    {
+        "name": "A#m#5",
+        "description": "A sharp minor augmented with notes A# C# F#",
+        "notes": [
+            "A#",
+            "C#",
+            "F#"
+        ]
+    },
+    {
+        "name": "Bbm#5",
+        "description": "B flat minor augmented with notes A# C# F#",
+        "notes": [
+            "A#",
+            "C#",
+            "F#"
+        ]
+    },
+    {
+        "name": "Bm#5",
+        "description": "B minor augmented with notes B D G",
+        "notes": [
+            "B",
+            "D",
+            "G"
+        ]
+    },
+    {
+        "name": "Cm",
+        "description": "C minor with notes C D# G",
+        "notes": [
+            "C",
+            "D#",
+            "G"
+        ]
+    },
+    {
+        "name": "C#m",
+        "description": "C sharp minor with notes C# E G#",
+        "notes": [
+            "C#",
+            "E",
+            "G#"
+        ]
+    },
+    {
+        "name": "Dbm",
+        "description": "D flat minor with notes C# E G#",
+        "notes": [
+            "C#",
+            "E",
+            "G#"
+        ]
+    },
+    {
+        "name": "Dm",
+        "description": "D minor with notes D F A",
+        "notes": [
+            "D",
+            "F",
+            "A"
+        ]
+    },
+    {
+        "name": "D#m",
+        "description": "D sharp minor with notes D# F# A#",
+        "notes": [
+            "D#",
+            "F#",
+            "A#"
+        ]
+    },
+    {
+        "name": "Ebm",
+        "description": "E flat minor with notes D# F# A#",
+        "notes": [
+            "D#",
+            "F#",
+            "A#"
+        ]
+    },
+    {
+        "name": "Em",
+        "description": "E minor with notes E G B",
+        "notes": [
+            "E",
+            "G",
+            "B"
+        ]
+    },
+    {
+        "name": "Fm",
+        "description": "F minor with notes F G# C",
+        "notes": [
+            "F",
+            "G#",
+            "C"
+        ]
+    },
+    {
+        "name": "F#m",
+        "description": "F sharp minor with notes F# A C#",
+        "notes": [
+            "F#",
+            "A",
+            "C#"
+        ]
+    },
+    {
+        "name": "Gbm",
+        "description": "G flat minor with notes F# A C#",
+        "notes": [
+            "F#",
+            "A",
+            "C#"
+        ]
+    },
+    {
+        "name": "Gm",
+        "description": "G minor with notes G A# D",
+        "notes": [
+            "G",
+            "A#",
+            "D"
+        ]
+    },
+    {
+        "name": "G#m",
+        "description": "G sharp minor with notes G# B D#",
+        "notes": [
+            "G#",
+            "B",
+            "D#"
+        ]
+    },
+    {
+        "name": "Abm",
+        "description": "A flat minor with notes G# B D#",
+        "notes": [
+            "G#",
+            "B",
+            "D#"
+        ]
+    },
+    {
+        "name": "Am",
+        "description": "A minor with notes A C E",
+        "notes": [
+            "A",
+            "C",
+            "E"
+        ]
+    },
+    {
+        "name": "A#m",
+        "description": "A sharp minor with notes A# C# F",
+        "notes": [
+            "A#",
+            "C#",
+            "F"
+        ]
+    },
+    {
+        "name": "Bbm",
+        "description": "B flat minor with notes A# C# F",
+        "notes": [
+            "A#",
+            "C#",
+            "F"
+        ]
+    },
+    {
+        "name": "Bm",
+        "description": "B minor with notes B D F#",
+        "notes": [
+            "B",
+            "D",
+            "F#"
+        ]
+    },
+    {
+        "name": "Cm/ma7",
+        "description": "C minor/major seventh with notes C D# G B",
+        "notes": [
+            "C",
+            "D#",
+            "G",
+            "B"
+        ]
+    },
+    {
+        "name": "C#m/ma7",
+        "description": "C sharp minor/major seventh with notes C# E G# C",
+        "notes": [
+            "C#",
+            "E",
+            "G#",
+            "C"
+        ]
+    },
+    {
+        "name": "Dbm/ma7",
+        "description": "D flat minor/major seventh with notes C# E G# C",
+        "notes": [
+            "C#",
+            "E",
+            "G#",
+            "C"
+        ]
+    },
+    {
+        "name": "Dm/ma7",
+        "description": "D minor/major seventh with notes D F A C#",
+        "notes": [
+            "D",
+            "F",
+            "A",
+            "C#"
+        ]
+    },
+    {
+        "name": "D#m/ma7",
+        "description": "D sharp minor/major seventh with notes D# F# A# D",
+        "notes": [
+            "D#",
+            "F#",
+            "A#",
+            "D"
+        ]
+    },
+    {
+        "name": "Ebm/ma7",
+        "description": "E flat minor/major seventh with notes D# F# A# D",
+        "notes": [
+            "D#",
+            "F#",
+            "A#",
+            "D"
+        ]
+    },
+    {
+        "name": "Em/ma7",
+        "description": "E minor/major seventh with notes E G B D#",
+        "notes": [
+            "E",
+            "G",
+            "B",
+            "D#"
+        ]
+    },
+    {
+        "name": "Fm/ma7",
+        "description": "F minor/major seventh with notes F G# C E",
+        "notes": [
+            "F",
+            "G#",
+            "C",
+            "E"
+        ]
+    },
+    {
+        "name": "F#m/ma7",
+        "description": "F sharp minor/major seventh with notes F# A C# F",
+        "notes": [
+            "F#",
+            "A",
+            "C#",
+            "F"
+        ]
+    },
+    {
+        "name": "Gbm/ma7",
+        "description": "G flat minor/major seventh with notes F# A C# F",
+        "notes": [
+            "F#",
+            "A",
+            "C#",
+            "F"
+        ]
+    },
+    {
+        "name": "Gm/ma7",
+        "description": "G minor/major seventh with notes G A# D F#",
+        "notes": [
+            "G",
+            "A#",
+            "D",
+            "F#"
+        ]
+    },
+    {
+        "name": "G#m/ma7",
+        "description": "G sharp minor/major seventh with notes G# B D# G",
+        "notes": [
+            "G#",
+            "B",
+            "D#",
+            "G"
+        ]
+    },
+    {
+        "name": "Abm/ma7",
+        "description": "A flat minor/major seventh with notes G# B D# G",
+        "notes": [
+            "G#",
+            "B",
+            "D#",
+            "G"
+        ]
+    },
+    {
+        "name": "Am/ma7",
+        "description": "A minor/major seventh with notes A C E G#",
+        "notes": [
+            "A",
+            "C",
+            "E",
+            "G#"
+        ]
+    },
+    {
+        "name": "A#m/ma7",
+        "description": "A sharp minor/major seventh with notes A# C# F A",
+        "notes": [
+            "A#",
+            "C#",
+            "F",
+            "A"
+        ]
+    },
+    {
+        "name": "Bbm/ma7",
+        "description": "B flat minor/major seventh with notes A# C# F A",
+        "notes": [
+            "A#",
+            "C#",
+            "F",
+            "A"
+        ]
+    },
+    {
+        "name": "Bm/ma7",
+        "description": "B minor/major seventh with notes B D F# A#",
+        "notes": [
+            "B",
+            "D",
+            "F#",
+            "A#"
+        ]
+    },
+    {
+        "name": "Cm7",
+        "description": "C minor seventh with notes C D# G A#",
+        "notes": [
+            "C",
+            "D#",
+            "G",
+            "A#"
+        ]
+    },
+    {
+        "name": "C#m7",
+        "description": "C sharp minor seventh with notes C# E G# B",
+        "notes": [
+            "C#",
+            "E",
+            "G#",
+            "B"
+        ]
+    },
+    {
+        "name": "Dbm7",
+        "description": "D flat minor seventh with notes C# E G# B",
+        "notes": [
+            "C#",
+            "E",
+            "G#",
+            "B"
+        ]
+    },
+    {
+        "name": "Dm7",
+        "description": "D minor seventh with notes D F A C",
+        "notes": [
+            "D",
+            "F",
+            "A",
+            "C"
+        ]
+    },
+    {
+        "name": "D#m7",
+        "description": "D sharp minor seventh with notes D# F# A# C#",
+        "notes": [
+            "D#",
+            "F#",
+            "A#",
+            "C#"
+        ]
+    },
+    {
+        "name": "Ebm7",
+        "description": "E flat minor seventh with notes D# F# A# C#",
+        "notes": [
+            "D#",
+            "F#",
+            "A#",
+            "C#"
+        ]
+    },
+    {
+        "name": "Em7",
+        "description": "E minor seventh with notes E G B D",
+        "notes": [
+            "E",
+            "G",
+            "B",
+            "D"
+        ]
+    },
+    {
+        "name": "Fm7",
+        "description": "F minor seventh with notes F G# C D#",
+        "notes": [
+            "F",
+            "G#",
+            "C",
+            "D#"
+        ]
+    },
+    {
+        "name": "F#m7",
+        "description": "F sharp minor seventh with notes F# A C# E",
+        "notes": [
+            "F#",
+            "A",
+            "C#",
+            "E"
+        ]
+    },
+    {
+        "name": "Gbm7",
+        "description": "G flat minor seventh with notes F# A C# E",
+        "notes": [
+            "F#",
+            "A",
+            "C#",
+            "E"
+        ]
+    },
+    {
+        "name": "Gm7",
+        "description": "G minor seventh with notes G A# D F",
+        "notes": [
+            "G",
+            "A#",
+            "D",
+            "F"
+        ]
+    },
+    {
+        "name": "G#m7",
+        "description": "G sharp minor seventh with notes G# B D# F#",
+        "notes": [
+            "G#",
+            "B",
+            "D#",
+            "F#"
+        ]
+    },
+    {
+        "name": "Abm7",
+        "description": "A flat minor seventh with notes G# B D# F#",
+        "notes": [
+            "G#",
+            "B",
+            "D#",
+            "F#"
+        ]
+    },
+    {
+        "name": "Am7",
+        "description": "A minor seventh with notes A C E G",
+        "notes": [
+            "A",
+            "C",
+            "E",
+            "G"
+        ]
+    },
+    {
+        "name": "A#m7",
+        "description": "A sharp minor seventh with notes A# C# F G#",
+        "notes": [
+            "A#",
+            "C#",
+            "F",
+            "G#"
+        ]
+    },
+    {
+        "name": "Bbm7",
+        "description": "B flat minor seventh with notes A# C# F G#",
+        "notes": [
+            "A#",
+            "C#",
+            "F",
+            "G#"
+        ]
+    },
+    {
+        "name": "Bm7",
+        "description": "B minor seventh with notes B D F# A",
+        "notes": [
+            "B",
+            "D",
+            "F#",
+            "A"
+        ]
+    },
+    {
+        "name": "Cm6",
+        "description": "C minor sixth with notes C D# G A",
+        "notes": [
+            "C",
+            "D#",
+            "G",
+            "A"
+        ]
+    },
+    {
+        "name": "C#m6",
+        "description": "C sharp minor sixth with notes C# E G# A#",
+        "notes": [
+            "C#",
+            "E",
+            "G#",
+            "A#"
+        ]
+    },
+    {
+        "name": "Dbm6",
+        "description": "D flat minor sixth with notes C# E G# A#",
+        "notes": [
+            "C#",
+            "E",
+            "G#",
+            "A#"
+        ]
+    },
+    {
+        "name": "Dm6",
+        "description": "D minor sixth with notes D F A B",
+        "notes": [
+            "D",
+            "F",
+            "A",
+            "B"
+        ]
+    },
+    {
+        "name": "D#m6",
+        "description": "D sharp minor sixth with notes D# F# A# C",
+        "notes": [
+            "D#",
+            "F#",
+            "A#",
+            "C"
+        ]
+    },
+    {
+        "name": "Ebm6",
+        "description": "E flat minor sixth with notes D# F# A# C",
+        "notes": [
+            "D#",
+            "F#",
+            "A#",
+            "C"
+        ]
+    },
+    {
+        "name": "Em6",
+        "description": "E minor sixth with notes E G B C#",
+        "notes": [
+            "E",
+            "G",
+            "B",
+            "C#"
+        ]
+    },
+    {
+        "name": "Fm6",
+        "description": "F minor sixth with notes F G# C D",
+        "notes": [
+            "F",
+            "G#",
+            "C",
+            "D"
+        ]
+    },
+    {
+        "name": "F#m6",
+        "description": "F sharp minor sixth with notes F# A C# D#",
+        "notes": [
+            "F#",
+            "A",
+            "C#",
+            "D#"
+        ]
+    },
+    {
+        "name": "Gbm6",
+        "description": "G flat minor sixth with notes F# A C# D#",
+        "notes": [
+            "F#",
+            "A",
+            "C#",
+            "D#"
+        ]
+    },
+    {
+        "name": "Gm6",
+        "description": "G minor sixth with notes G A# D E",
+        "notes": [
+            "G",
+            "A#",
+            "D",
+            "E"
+        ]
+    },
+    {
+        "name": "G#m6",
+        "description": "G sharp minor sixth with notes G# B D# F",
+        "notes": [
+            "G#",
+            "B",
+            "D#",
+            "F"
+        ]
+    },
+    {
+        "name": "Abm6",
+        "description": "A flat minor sixth with notes G# B D# F",
+        "notes": [
+            "G#",
+            "B",
+            "D#",
+            "F"
+        ]
+    },
+    {
+        "name": "Am6",
+        "description": "A minor sixth with notes A C E F#",
+        "notes": [
+            "A",
+            "C",
+            "E",
+            "F#"
+        ]
+    },
+    {
+        "name": "A#m6",
+        "description": "A sharp minor sixth with notes A# C# F G",
+        "notes": [
+            "A#",
+            "C#",
+            "F",
+            "G"
+        ]
+    },
+    {
+        "name": "Bbm6",
+        "description": "B flat minor sixth with notes A# C# F G",
+        "notes": [
+            "A#",
+            "C#",
+            "F",
+            "G"
+        ]
+    },
+    {
+        "name": "Bm6",
+        "description": "B minor sixth with notes B D F# G#",
+        "notes": [
+            "B",
+            "D",
+            "F#",
+            "G#"
+        ]
+    },
+    {
+        "name": "Cdim",
+        "description": "C diminished with notes C D# F#",
+        "notes": [
+            "C",
+            "D#",
+            "F#"
+        ]
+    },
+    {
+        "name": "C#dim",
+        "description": "C sharp diminished with notes C# E G",
+        "notes": [
+            "C#",
+            "E",
+            "G"
+        ]
+    },
+    {
+        "name": "Dbdim",
+        "description": "D flat diminished with notes C# E G",
+        "notes": [
+            "C#",
+            "E",
+            "G"
+        ]
+    },
+    {
+        "name": "Ddim",
+        "description": "D diminished with notes D F G#",
+        "notes": [
+            "D",
+            "F",
+            "G#"
+        ]
+    },
+    {
+        "name": "D#dim",
+        "description": "D sharp diminished with notes D# F# A",
+        "notes": [
+            "D#",
+            "F#",
+            "A"
+        ]
+    },
+    {
+        "name": "Ebdim",
+        "description": "E flat diminished with notes D# F# A",
+        "notes": [
+            "D#",
+            "F#",
+            "A"
+        ]
+    },
+    {
+        "name": "Edim",
+        "description": "E diminished with notes E G A#",
+        "notes": [
+            "E",
+            "G",
+            "A#"
+        ]
+    },
+    {
+        "name": "Fdim",
+        "description": "F diminished with notes F G# B",
+        "notes": [
+            "F",
+            "G#",
+            "B"
+        ]
+    },
+    {
+        "name": "F#dim",
+        "description": "F sharp diminished with notes F# A C",
+        "notes": [
+            "F#",
+            "A",
+            "C"
+        ]
+    },
+    {
+        "name": "Gbdim",
+        "description": "G flat diminished with notes F# A C",
+        "notes": [
+            "F#",
+            "A",
+            "C"
+        ]
+    },
+    {
+        "name": "Gdim",
+        "description": "G diminished with notes G A# C#",
+        "notes": [
+            "G",
+            "A#",
+            "C#"
+        ]
+    },
+    {
+        "name": "G#dim",
+        "description": "G sharp diminished with notes G# B D",
+        "notes": [
+            "G#",
+            "B",
+            "D"
+        ]
+    },
+    {
+        "name": "Abdim",
+        "description": "A flat diminished with notes G# B D",
+        "notes": [
+            "G#",
+            "B",
+            "D"
+        ]
+    },
+    {
+        "name": "Adim",
+        "description": "A diminished with notes A C D#",
+        "notes": [
+            "A",
+            "C",
+            "D#"
+        ]
+    },
+    {
+        "name": "A#dim",
+        "description": "A sharp diminished with notes A# C# E",
+        "notes": [
+            "A#",
+            "C#",
+            "E"
+        ]
+    },
+    {
+        "name": "Bbdim",
+        "description": "B flat diminished with notes A# C# E",
+        "notes": [
+            "A#",
+            "C#",
+            "E"
+        ]
+    },
+    {
+        "name": "Bdim",
+        "description": "B diminished with notes B D F",
+        "notes": [
+            "B",
+            "D",
+            "F"
+        ]
+    },
+    {
+        "name": "Cm7b5",
+        "description": "C half-diminished with notes C D# F# A#",
+        "notes": [
+            "C",
+            "D#",
+            "F#",
+            "A#"
+        ]
+    },
+    {
+        "name": "C#m7b5",
+        "description": "C sharp half-diminished with notes C# E G B",
+        "notes": [
+            "C#",
+            "E",
+            "G",
+            "B"
+        ]
+    },
+    {
+        "name": "Dbm7b5",
+        "description": "D flat half-diminished with notes C# E G B",
+        "notes": [
+            "C#",
+            "E",
+            "G",
+            "B"
+        ]
+    },
+    {
+        "name": "Dm7b5",
+        "description": "D half-diminished with notes D F G# C",
+        "notes": [
+            "D",
+            "F",
+            "G#",
+            "C"
+        ]
+    },
+    {
+        "name": "D#m7b5",
+        "description": "D sharp half-diminished with notes D# F# A C#",
+        "notes": [
+            "D#",
+            "F#",
+            "A",
+            "C#"
+        ]
+    },
+    {
+        "name": "Ebm7b5",
+        "description": "E flat half-diminished with notes D# F# A C#",
+        "notes": [
+            "D#",
+            "F#",
+            "A",
+            "C#"
+        ]
+    },
+    {
+        "name": "Em7b5",
+        "description": "E half-diminished with notes E G A# D",
+        "notes": [
+            "E",
+            "G",
+            "A#",
+            "D"
+        ]
+    },
+    {
+        "name": "Fm7b5",
+        "description": "F half-diminished with notes F G# B D#",
+        "notes": [
+            "F",
+            "G#",
+            "B",
+            "D#"
+        ]
+    },
+    {
+        "name": "F#m7b5",
+        "description": "F sharp half-diminished with notes F# A C E",
+        "notes": [
+            "F#",
+            "A",
+            "C",
+            "E"
+        ]
+    },
+    {
+        "name": "Gbm7b5",
+        "description": "G flat half-diminished with notes F# A C E",
+        "notes": [
+            "F#",
+            "A",
+            "C",
+            "E"
+        ]
+    },
+    {
+        "name": "Gm7b5",
+        "description": "G half-diminished with notes G A# C# F",
+        "notes": [
+            "G",
+            "A#",
+            "C#",
+            "F"
+        ]
+    },
+    {
+        "name": "G#m7b5",
+        "description": "G sharp half-diminished with notes G# B D F#",
+        "notes": [
+            "G#",
+            "B",
+            "D",
+            "F#"
+        ]
+    },
+    {
+        "name": "Abm7b5",
+        "description": "A flat half-diminished with notes G# B D F#",
+        "notes": [
+            "G#",
+            "B",
+            "D",
+            "F#"
+        ]
+    },
+    {
+        "name": "Am7b5",
+        "description": "A half-diminished with notes A C D# G",
+        "notes": [
+            "A",
+            "C",
+            "D#",
+            "G"
+        ]
+    },
+    {
+        "name": "A#m7b5",
+        "description": "A sharp half-diminished with notes A# C# E G#",
+        "notes": [
+            "A#",
+            "C#",
+            "E",
+            "G#"
+        ]
+    },
+    {
+        "name": "Bbm7b5",
+        "description": "B flat half-diminished with notes A# C# E G#",
+        "notes": [
+            "A#",
+            "C#",
+            "E",
+            "G#"
+        ]
+    },
+    {
+        "name": "Bm7b5",
+        "description": "B half-diminished with notes B D F A",
+        "notes": [
+            "B",
+            "D",
+            "F",
+            "A"
+        ]
+    },
+    {
+        "name": "Cdim7",
+        "description": "C diminished seventh with notes C D# F# A",
+        "notes": [
+            "C",
+            "D#",
+            "F#",
+            "A"
+        ]
+    },
+    {
+        "name": "C#dim7",
+        "description": "C sharp diminished seventh with notes C# E G A#",
+        "notes": [
+            "C#",
+            "E",
+            "G",
+            "A#"
+        ]
+    },
+    {
+        "name": "Dbdim7",
+        "description": "D flat diminished seventh with notes C# E G A#",
+        "notes": [
+            "C#",
+            "E",
+            "G",
+            "A#"
+        ]
+    },
+    {
+        "name": "Ddim7",
+        "description": "D diminished seventh with notes D F G# B",
+        "notes": [
+            "D",
+            "F",
+            "G#",
+            "B"
+        ]
+    },
+    {
+        "name": "D#dim7",
+        "description": "D sharp diminished seventh with notes D# F# A C",
+        "notes": [
+            "D#",
+            "F#",
+            "A",
+            "C"
+        ]
+    },
+    {
+        "name": "Ebdim7",
+        "description": "E flat diminished seventh with notes D# F# A C",
+        "notes": [
+            "D#",
+            "F#",
+            "A",
+            "C"
+        ]
+    },
+    {
+        "name": "Edim7",
+        "description": "E diminished seventh with notes E G A# C#",
+        "notes": [
+            "E",
+            "G",
+            "A#",
+            "C#"
+        ]
+    },
+    {
+        "name": "Fdim7",
+        "description": "F diminished seventh with notes F G# B D",
+        "notes": [
+            "F",
+            "G#",
+            "B",
+            "D"
+        ]
+    },
+    {
+        "name": "F#dim7",
+        "description": "F sharp diminished seventh with notes F# A C D#",
+        "notes": [
+            "F#",
+            "A",
+            "C",
+            "D#"
+        ]
+    },
+    {
+        "name": "Gbdim7",
+        "description": "G flat diminished seventh with notes F# A C D#",
+        "notes": [
+            "F#",
+            "A",
+            "C",
+            "D#"
+        ]
+    },
+    {
+        "name": "Gdim7",
+        "description": "G diminished seventh with notes G A# C# E",
+        "notes": [
+            "G",
+            "A#",
+            "C#",
+            "E"
+        ]
+    },
+    {
+        "name": "G#dim7",
+        "description": "G sharp diminished seventh with notes G# B D F",
+        "notes": [
+            "G#",
+            "B",
+            "D",
+            "F"
+        ]
+    },
+    {
+        "name": "Abdim7",
+        "description": "A flat diminished seventh with notes G# B D F",
+        "notes": [
+            "G#",
+            "B",
+            "D",
+            "F"
+        ]
+    },
+    {
+        "name": "Adim7",
+        "description": "A diminished seventh with notes A C D# F#",
+        "notes": [
+            "A",
+            "C",
+            "D#",
+            "F#"
+        ]
+    },
+    {
+        "name": "A#dim7",
+        "description": "A sharp diminished seventh with notes A# C# E G",
+        "notes": [
+            "A#",
+            "C#",
+            "E",
+            "G"
+        ]
+    },
+    {
+        "name": "Bbdim7",
+        "description": "B flat diminished seventh with notes A# C# E G",
+        "notes": [
+            "A#",
+            "C#",
+            "E",
+            "G"
+        ]
+    },
+    {
+        "name": "Bdim7",
+        "description": "B diminished seventh with notes B D F G#",
+        "notes": [
+            "B",
+            "D",
+            "F",
+            "G#"
+        ]
+    },
+    {
+        "name": "C7#9",
+        "description": "C dominant sharp ninth with notes C E G A# D#",
+        "notes": [
+            "C",
+            "E",
+            "G",
+            "A#",
+            "D#"
+        ]
+    },
+    {
+        "name": "C#7#9",
+        "description": "C sharp dominant sharp ninth with notes C# F G# B E",
+        "notes": [
+            "C#",
+            "F",
+            "G#",
+            "B",
+            "E"
+        ]
+    },
+    {
+        "name": "Db7#9",
+        "description": "D flat dominant sharp ninth with notes C# F G# B E",
+        "notes": [
+            "C#",
+            "F",
+            "G#",
+            "B",
+            "E"
+        ]
+    },
+    {
+        "name": "D7#9",
+        "description": "D dominant sharp ninth with notes D F# A C F",
+        "notes": [
+            "D",
+            "F#",
+            "A",
+            "C",
+            "F"
+        ]
+    },
+    {
+        "name": "D#7#9",
+        "description": "D sharp dominant sharp ninth with notes D# G A# C# F#",
+        "notes": [
+            "D#",
+            "G",
+            "A#",
+            "C#",
+            "F#"
+        ]
+    },
+    {
+        "name": "Eb7#9",
+        "description": "E flat dominant sharp ninth with notes D# G A# C# F#",
+        "notes": [
+            "D#",
+            "G",
+            "A#",
+            "C#",
+            "F#"
+        ]
+    },
+    {
+        "name": "E7#9",
+        "description": "E dominant sharp ninth with notes E G# B D G",
+        "notes": [
+            "E",
+            "G#",
+            "B",
+            "D",
+            "G"
+        ]
+    },
+    {
+        "name": "F7#9",
+        "description": "F dominant sharp ninth with notes F A C D# G#",
+        "notes": [
+            "F",
+            "A",
+            "C",
+            "D#",
+            "G#"
+        ]
+    },
+    {
+        "name": "F#7#9",
+        "description": "F sharp dominant sharp ninth with notes F# A# C# E A",
+        "notes": [
+            "F#",
+            "A#",
+            "C#",
+            "E",
+            "A"
+        ]
+    },
+    {
+        "name": "Gb7#9",
+        "description": "G flat dominant sharp ninth with notes F# A# C# E A",
+        "notes": [
+            "F#",
+            "A#",
+            "C#",
+            "E",
+            "A"
+        ]
+    },
+    {
+        "name": "G7#9",
+        "description": "G dominant sharp ninth with notes G B D F A#",
+        "notes": [
+            "G",
+            "B",
+            "D",
+            "F",
+            "A#"
+        ]
+    },
+    {
+        "name": "G#7#9",
+        "description": "G sharp dominant sharp ninth with notes G# C D# F# B",
+        "notes": [
+            "G#",
+            "C",
+            "D#",
+            "F#",
+            "B"
+        ]
+    },
+    {
+        "name": "Ab7#9",
+        "description": "A flat dominant sharp ninth with notes G# C D# F# B",
+        "notes": [
+            "G#",
+            "C",
+            "D#",
+            "F#",
+            "B"
+        ]
+    },
+    {
+        "name": "A7#9",
+        "description": "A dominant sharp ninth with notes A C# E G C",
+        "notes": [
+            "A",
+            "C#",
+            "E",
+            "G",
+            "C"
+        ]
+    },
+    {
+        "name": "A#7#9",
+        "description": "A sharp dominant sharp ninth with notes A# D F G# C#",
+        "notes": [
+            "A#",
+            "D",
+            "F",
+            "G#",
+            "C#"
+        ]
+    },
+    {
+        "name": "Bb7#9",
+        "description": "B flat dominant sharp ninth with notes A# D F G# C#",
+        "notes": [
+            "A#",
+            "D",
+            "F",
+            "G#",
+            "C#"
+        ]
+    },
+    {
+        "name": "B7#9",
+        "description": "B dominant sharp ninth with notes B D# F# A D",
+        "notes": [
+            "B",
+            "D#",
+            "F#",
+            "A",
+            "D"
+        ]
+    },
+    {
+        "name": "Csus2",
+        "description": "C suspended second with notes C D G",
+        "notes": [
+            "C",
+            "D",
+            "G"
+        ]
+    },
+    {
+        "name": "C#sus2",
+        "description": "C sharp suspended second with notes C# D# G#",
+        "notes": [
+            "C#",
+            "D#",
+            "G#"
+        ]
+    },
+    {
+        "name": "Dbsus2",
+        "description": "D flat suspended second with notes C# D# G#",
+        "notes": [
+            "C#",
+            "D#",
+            "G#"
+        ]
+    },
+    {
+        "name": "Dsus2",
+        "description": "D suspended second with notes D E A",
+        "notes": [
+            "D",
+            "E",
+            "A"
+        ]
+    },
+    {
+        "name": "D#sus2",
+        "description": "D sharp suspended second with notes D# F A#",
+        "notes": [
+            "D#",
+            "F",
+            "A#"
+        ]
+    },
+    {
+        "name": "Ebsus2",
+        "description": "E flat suspended second with notes D# F A#",
+        "notes": [
+            "D#",
+            "F",
+            "A#"
+        ]
+    },
+    {
+        "name": "Esus2",
+        "description": "E suspended second with notes E F# B",
+        "notes": [
+            "E",
+            "F#",
+            "B"
+        ]
+    },
+    {
+        "name": "Fsus2",
+        "description": "F suspended second with notes F G C",
+        "notes": [
+            "F",
+            "G",
+            "C"
+        ]
+    },
+    {
+        "name": "F#sus2",
+        "description": "F sharp suspended second with notes F# G# C#",
+        "notes": [
+            "F#",
+            "G#",
+            "C#"
+        ]
+    },
+    {
+        "name": "Gbsus2",
+        "description": "G flat suspended second with notes F# G# C#",
+        "notes": [
+            "F#",
+            "G#",
+            "C#"
+        ]
+    },
+    {
+        "name": "Gsus2",
+        "description": "G suspended second with notes G A D",
+        "notes": [
+            "G",
+            "A",
+            "D"
+        ]
+    },
+    {
+        "name": "G#sus2",
+        "description": "G sharp suspended second with notes G# A# D#",
+        "notes": [
+            "G#",
+            "A#",
+            "D#"
+        ]
+    },
+    {
+        "name": "Absus2",
+        "description": "A flat suspended second with notes G# A# D#",
+        "notes": [
+            "G#",
+            "A#",
+            "D#"
+        ]
+    },
+    {
+        "name": "Asus2",
+        "description": "A suspended second with notes A B E",
+        "notes": [
+            "A",
+            "B",
+            "E"
+        ]
+    },
+    {
+        "name": "A#sus2",
+        "description": "A sharp suspended second with notes A# C F",
+        "notes": [
+            "A#",
+            "C",
+            "F"
+        ]
+    },
+    {
+        "name": "Bbsus2",
+        "description": "B flat suspended second with notes A# C F",
+        "notes": [
+            "A#",
+            "C",
+            "F"
+        ]
+    },
+    {
+        "name": "Bsus2",
+        "description": "B suspended second with notes B C# F#",
+        "notes": [
+            "B",
+            "C#",
+            "F#"
+        ]
+    },
+    {
+        "name": "C11",
+        "description": "C eleventh with notes C G A# D F",
+        "notes": [
+            "C",
+            "G",
+            "A#",
+            "D",
+            "F"
+        ]
+    },
+    {
+        "name": "C#11",
+        "description": "C sharp eleventh with notes C# G# B D# F#",
+        "notes": [
+            "C#",
+            "G#",
+            "B",
+            "D#",
+            "F#"
+        ]
+    },
+    {
+        "name": "Db11",
+        "description": "D flat eleventh with notes C# G# B D# F#",
+        "notes": [
+            "C#",
+            "G#",
+            "B",
+            "D#",
+            "F#"
+        ]
+    },
+    {
+        "name": "D11",
+        "description": "D eleventh with notes D A C E G",
+        "notes": [
+            "D",
+            "A",
+            "C",
+            "E",
+            "G"
+        ]
+    },
+    {
+        "name": "D#11",
+        "description": "D sharp eleventh with notes D# A# C# F G#",
+        "notes": [
+            "D#",
+            "A#",
+            "C#",
+            "F",
+            "G#"
+        ]
+    },
+    {
+        "name": "Eb11",
+        "description": "E flat eleventh with notes D# A# C# F G#",
+        "notes": [
+            "D#",
+            "A#",
+            "C#",
+            "F",
+            "G#"
+        ]
+    },
+    {
+        "name": "E11",
+        "description": "E eleventh with notes E B D F# A",
+        "notes": [
+            "E",
+            "B",
+            "D",
+            "F#",
+            "A"
+        ]
+    },
+    {
+        "name": "F11",
+        "description": "F eleventh with notes F C D# G A#",
+        "notes": [
+            "F",
+            "C",
+            "D#",
+            "G",
+            "A#"
+        ]
+    },
+    {
+        "name": "F#11",
+        "description": "F sharp eleventh with notes F# C# E G# B",
+        "notes": [
+            "F#",
+            "C#",
+            "E",
+            "G#",
+            "B"
+        ]
+    },
+    {
+        "name": "Gb11",
+        "description": "G flat eleventh with notes F# C# E G# B",
+        "notes": [
+            "F#",
+            "C#",
+            "E",
+            "G#",
+            "B"
+        ]
+    },
+    {
+        "name": "G11",
+        "description": "G eleventh with notes G D F A C",
+        "notes": [
+            "G",
+            "D",
+            "F",
+            "A",
+            "C"
+        ]
+    },
+    {
+        "name": "G#11",
+        "description": "G sharp eleventh with notes G# D# F# A# C#",
+        "notes": [
+            "G#",
+            "D#",
+            "F#",
+            "A#",
+            "C#"
+        ]
+    },
+    {
+        "name": "Ab11",
+        "description": "A flat eleventh with notes G# D# F# A# C#",
+        "notes": [
+            "G#",
+            "D#",
+            "F#",
+            "A#",
+            "C#"
+        ]
+    },
+    {
+        "name": "A11",
+        "description": "A eleventh with notes A E G B D",
+        "notes": [
+            "A",
+            "E",
+            "G",
+            "B",
+            "D"
+        ]
+    },
+    {
+        "name": "A#11",
+        "description": "A sharp eleventh with notes A# F G# C D#",
+        "notes": [
+            "A#",
+            "F",
+            "G#",
+            "C",
+            "D#"
+        ]
+    },
+    {
+        "name": "Bb11",
+        "description": "B flat eleventh with notes A# F G# C D#",
+        "notes": [
+            "A#",
+            "F",
+            "G#",
+            "C",
+            "D#"
+        ]
+    },
+    {
+        "name": "B11",
+        "description": "B eleventh with notes B F# A C# E",
+        "notes": [
+            "B",
+            "F#",
+            "A",
+            "C#",
+            "E"
+        ]
+    },
+    {
+        "name": "Cmaj9",
+        "description": "C major ninth with notes C E G B D",
+        "notes": [
+            "C",
+            "E",
+            "G",
+            "B",
+            "D"
+        ]
+    },
+    {
+        "name": "C#maj9",
+        "description": "C sharp major ninth with notes C# F G# C D#",
+        "notes": [
+            "C#",
+            "F",
+            "G#",
+            "C",
+            "D#"
+        ]
+    },
+    {
+        "name": "Dbmaj9",
+        "description": "D flat major ninth with notes C# F G# C D#",
+        "notes": [
+            "C#",
+            "F",
+            "G#",
+            "C",
+            "D#"
+        ]
+    },
+    {
+        "name": "Dmaj9",
+        "description": "D major ninth with notes D F# A C# E",
+        "notes": [
+            "D",
+            "F#",
+            "A",
+            "C#",
+            "E"
+        ]
+    },
+    {
+        "name": "D#maj9",
+        "description": "D sharp major ninth with notes D# G A# D F",
+        "notes": [
+            "D#",
+            "G",
+            "A#",
+            "D",
+            "F"
+        ]
+    },
+    {
+        "name": "Ebmaj9",
+        "description": "E flat major ninth with notes D# G A# D F",
+        "notes": [
+            "D#",
+            "G",
+            "A#",
+            "D",
+            "F"
+        ]
+    },
+    {
+        "name": "Emaj9",
+        "description": "E major ninth with notes E G# B D# F#",
+        "notes": [
+            "E",
+            "G#",
+            "B",
+            "D#",
+            "F#"
+        ]
+    },
+    {
+        "name": "Fmaj9",
+        "description": "F major ninth with notes F A C E G",
+        "notes": [
+            "F",
+            "A",
+            "C",
+            "E",
+            "G"
+        ]
+    },
+    {
+        "name": "F#maj9",
+        "description": "F sharp major ninth with notes F# A# C# F G#",
+        "notes": [
+            "F#",
+            "A#",
+            "C#",
+            "F",
+            "G#"
+        ]
+    },
+    {
+        "name": "Gbmaj9",
+        "description": "G flat major ninth with notes F# A# C# F G#",
+        "notes": [
+            "F#",
+            "A#",
+            "C#",
+            "F",
+            "G#"
+        ]
+    },
+    {
+        "name": "Gmaj9",
+        "description": "G major ninth with notes G B D F# A",
+        "notes": [
+            "G",
+            "B",
+            "D",
+            "F#",
+            "A"
+        ]
+    },
+    {
+        "name": "G#maj9",
+        "description": "G sharp major ninth with notes G# C D# G A#",
+        "notes": [
+            "G#",
+            "C",
+            "D#",
+            "G",
+            "A#"
+        ]
+    },
+    {
+        "name": "Abmaj9",
+        "description": "A flat major ninth with notes G# C D# G A#",
+        "notes": [
+            "G#",
+            "C",
+            "D#",
+            "G",
+            "A#"
+        ]
+    },
+    {
+        "name": "Amaj9",
+        "description": "A major ninth with notes A C# E G# B",
+        "notes": [
+            "A",
+            "C#",
+            "E",
+            "G#",
+            "B"
+        ]
+    },
+    {
+        "name": "A#maj9",
+        "description": "A sharp major ninth with notes A# D F A C",
+        "notes": [
+            "A#",
+            "D",
+            "F",
+            "A",
+            "C"
+        ]
+    },
+    {
+        "name": "Bbmaj9",
+        "description": "B flat major ninth with notes A# D F A C",
+        "notes": [
+            "A#",
+            "D",
+            "F",
+            "A",
+            "C"
+        ]
+    },
+    {
+        "name": "Bmaj9",
+        "description": "B major ninth with notes B D# F# A# C#",
+        "notes": [
+            "B",
+            "D#",
+            "F#",
+            "A#",
+            "C#"
+        ]
+    },
+    {
+        "name": "C9",
+        "description": "C dominant ninth with notes C E G A# D",
+        "notes": [
+            "C",
+            "E",
+            "G",
+            "A#",
+            "D"
+        ]
+    },
+    {
+        "name": "C#9",
+        "description": "C sharp dominant ninth with notes C# F G# B D#",
+        "notes": [
+            "C#",
+            "F",
+            "G#",
+            "B",
+            "D#"
+        ]
+    },
+    {
+        "name": "Db9",
+        "description": "D flat dominant ninth with notes C# F G# B D#",
+        "notes": [
+            "C#",
+            "F",
+            "G#",
+            "B",
+            "D#"
+        ]
+    },
+    {
+        "name": "D9",
+        "description": "D dominant ninth with notes D F# A C E",
+        "notes": [
+            "D",
+            "F#",
+            "A",
+            "C",
+            "E"
+        ]
+    },
+    {
+        "name": "D#9",
+        "description": "D sharp dominant ninth with notes D# G A# C# F",
+        "notes": [
+            "D#",
+            "G",
+            "A#",
+            "C#",
+            "F"
+        ]
+    },
+    {
+        "name": "Eb9",
+        "description": "E flat dominant ninth with notes D# G A# C# F",
+        "notes": [
+            "D#",
+            "G",
+            "A#",
+            "C#",
+            "F"
+        ]
+    },
+    {
+        "name": "E9",
+        "description": "E dominant ninth with notes E G# B D F#",
+        "notes": [
+            "E",
+            "G#",
+            "B",
+            "D",
+            "F#"
+        ]
+    },
+    {
+        "name": "F9",
+        "description": "F dominant ninth with notes F A C D# G",
+        "notes": [
+            "F",
+            "A",
+            "C",
+            "D#",
+            "G"
+        ]
+    },
+    {
+        "name": "F#9",
+        "description": "F sharp dominant ninth with notes F# A# C# E G#",
+        "notes": [
+            "F#",
+            "A#",
+            "C#",
+            "E",
+            "G#"
+        ]
+    },
+    {
+        "name": "Gb9",
+        "description": "G flat dominant ninth with notes F# A# C# E G#",
+        "notes": [
+            "F#",
+            "A#",
+            "C#",
+            "E",
+            "G#"
+        ]
+    },
+    {
+        "name": "G9",
+        "description": "G dominant ninth with notes G B D F A",
+        "notes": [
+            "G",
+            "B",
+            "D",
+            "F",
+            "A"
+        ]
+    },
+    {
+        "name": "G#9",
+        "description": "G sharp dominant ninth with notes G# C D# F# A#",
+        "notes": [
+            "G#",
+            "C",
+            "D#",
+            "F#",
+            "A#"
+        ]
+    },
+    {
+        "name": "Ab9",
+        "description": "A flat dominant ninth with notes G# C D# F# A#",
+        "notes": [
+            "G#",
+            "C",
+            "D#",
+            "F#",
+            "A#"
+        ]
+    },
+    {
+        "name": "A9",
+        "description": "A dominant ninth with notes A C# E G B",
+        "notes": [
+            "A",
+            "C#",
+            "E",
+            "G",
+            "B"
+        ]
+    },
+    {
+        "name": "A#9",
+        "description": "A sharp dominant ninth with notes A# D F G# C",
+        "notes": [
+            "A#",
+            "D",
+            "F",
+            "G#",
+            "C"
+        ]
+    },
+    {
+        "name": "Bb9",
+        "description": "B flat dominant ninth with notes A# D F G# C",
+        "notes": [
+            "A#",
+            "D",
+            "F",
+            "G#",
+            "C"
+        ]
+    },
+    {
+        "name": "B9",
+        "description": "B dominant ninth with notes B D# F# A C#",
+        "notes": [
+            "B",
+            "D#",
+            "F#",
+            "A",
+            "C#"
+        ]
+    },
+    {
+        "name": "C6add9",
+        "description": "C sixth added ninth with notes C E G A D",
+        "notes": [
+            "C",
+            "E",
+            "G",
+            "A",
+            "D"
+        ]
+    },
+    {
+        "name": "C#6add9",
+        "description": "C sharp sixth added ninth with notes C# F G# A# D#",
+        "notes": [
+            "C#",
+            "F",
+            "G#",
+            "A#",
+            "D#"
+        ]
+    },
+    {
+        "name": "Db6add9",
+        "description": "D flat sixth added ninth with notes C# F G# A# D#",
+        "notes": [
+            "C#",
+            "F",
+            "G#",
+            "A#",
+            "D#"
+        ]
+    },
+    {
+        "name": "D6add9",
+        "description": "D sixth added ninth with notes D F# A B E",
+        "notes": [
+            "D",
+            "F#",
+            "A",
+            "B",
+            "E"
+        ]
+    },
+    {
+        "name": "D#6add9",
+        "description": "D sharp sixth added ninth with notes D# G A# C F",
+        "notes": [
+            "D#",
+            "G",
+            "A#",
+            "C",
+            "F"
+        ]
+    },
+    {
+        "name": "Eb6add9",
+        "description": "E flat sixth added ninth with notes D# G A# C F",
+        "notes": [
+            "D#",
+            "G",
+            "A#",
+            "C",
+            "F"
+        ]
+    },
+    {
+        "name": "E6add9",
+        "description": "E sixth added ninth with notes E G# B C# F#",
+        "notes": [
+            "E",
+            "G#",
+            "B",
+            "C#",
+            "F#"
+        ]
+    },
+    {
+        "name": "F6add9",
+        "description": "F sixth added ninth with notes F A C D G",
+        "notes": [
+            "F",
+            "A",
+            "C",
+            "D",
+            "G"
+        ]
+    },
+    {
+        "name": "F#6add9",
+        "description": "F sharp sixth added ninth with notes F# A# C# D# G#",
+        "notes": [
+            "F#",
+            "A#",
+            "C#",
+            "D#",
+            "G#"
+        ]
+    },
+    {
+        "name": "Gb6add9",
+        "description": "G flat sixth added ninth with notes F# A# C# D# G#",
+        "notes": [
+            "F#",
+            "A#",
+            "C#",
+            "D#",
+            "G#"
+        ]
+    },
+    {
+        "name": "G6add9",
+        "description": "G sixth added ninth with notes G B D E A",
+        "notes": [
+            "G",
+            "B",
+            "D",
+            "E",
+            "A"
+        ]
+    },
+    {
+        "name": "G#6add9",
+        "description": "G sharp sixth added ninth with notes G# C D# F A#",
+        "notes": [
+            "G#",
+            "C",
+            "D#",
+            "F",
+            "A#"
+        ]
+    },
+    {
+        "name": "Ab6add9",
+        "description": "A flat sixth added ninth with notes G# C D# F A#",
+        "notes": [
+            "G#",
+            "C",
+            "D#",
+            "F",
+            "A#"
+        ]
+    },
+    {
+        "name": "A6add9",
+        "description": "A sixth added ninth with notes A C# E F# B",
+        "notes": [
+            "A",
+            "C#",
+            "E",
+            "F#",
+            "B"
+        ]
+    },
+    {
+        "name": "A#6add9",
+        "description": "A sharp sixth added ninth with notes A# D F G C",
+        "notes": [
+            "A#",
+            "D",
+            "F",
+            "G",
+            "C"
+        ]
+    },
+    {
+        "name": "Bb6add9",
+        "description": "B flat sixth added ninth with notes A# D F G C",
+        "notes": [
+            "A#",
+            "D",
+            "F",
+            "G",
+            "C"
+        ]
+    },
+    {
+        "name": "B6add9",
+        "description": "B sixth added ninth with notes B D# F# G# C#",
+        "notes": [
+            "B",
+            "D#",
+            "F#",
+            "G#",
+            "C#"
+        ]
+    },
+    {
+        "name": "Cmaj13",
+        "description": "C major thirteenth with notes C E G B D A",
+        "notes": [
+            "C",
+            "E",
+            "G",
+            "B",
+            "D",
+            "A"
+        ]
+    },
+    {
+        "name": "C#maj13",
+        "description": "C sharp major thirteenth with notes C# F G# C D# A#",
+        "notes": [
+            "C#",
+            "F",
+            "G#",
+            "C",
+            "D#",
+            "A#"
+        ]
+    },
+    {
+        "name": "Dbmaj13",
+        "description": "D flat major thirteenth with notes C# F G# C D# A#",
+        "notes": [
+            "C#",
+            "F",
+            "G#",
+            "C",
+            "D#",
+            "A#"
+        ]
+    },
+    {
+        "name": "Dmaj13",
+        "description": "D major thirteenth with notes D F# A C# E B",
+        "notes": [
+            "D",
+            "F#",
+            "A",
+            "C#",
+            "E",
+            "B"
+        ]
+    },
+    {
+        "name": "D#maj13",
+        "description": "D sharp major thirteenth with notes D# G A# D F C",
+        "notes": [
+            "D#",
+            "G",
+            "A#",
+            "D",
+            "F",
+            "C"
+        ]
+    },
+    {
+        "name": "Ebmaj13",
+        "description": "E flat major thirteenth with notes D# G A# D F C",
+        "notes": [
+            "D#",
+            "G",
+            "A#",
+            "D",
+            "F",
+            "C"
+        ]
+    },
+    {
+        "name": "Emaj13",
+        "description": "E major thirteenth with notes E G# B D# F# C#",
+        "notes": [
+            "E",
+            "G#",
+            "B",
+            "D#",
+            "F#",
+            "C#"
+        ]
+    },
+    {
+        "name": "Fmaj13",
+        "description": "F major thirteenth with notes F A C E G D",
+        "notes": [
+            "F",
+            "A",
+            "C",
+            "E",
+            "G",
+            "D"
+        ]
+    },
+    {
+        "name": "F#maj13",
+        "description": "F sharp major thirteenth with notes F# A# C# F G# D#",
+        "notes": [
+            "F#",
+            "A#",
+            "C#",
+            "F",
+            "G#",
+            "D#"
+        ]
+    },
+    {
+        "name": "Gbmaj13",
+        "description": "G flat major thirteenth with notes F# A# C# F G# D#",
+        "notes": [
+            "F#",
+            "A#",
+            "C#",
+            "F",
+            "G#",
+            "D#"
+        ]
+    },
+    {
+        "name": "Gmaj13",
+        "description": "G major thirteenth with notes G B D F# A E",
+        "notes": [
+            "G",
+            "B",
+            "D",
+            "F#",
+            "A",
+            "E"
+        ]
+    },
+    {
+        "name": "G#maj13",
+        "description": "G sharp major thirteenth with notes G# C D# G A# F",
+        "notes": [
+            "G#",
+            "C",
+            "D#",
+            "G",
+            "A#",
+            "F"
+        ]
+    },
+    {
+        "name": "Abmaj13",
+        "description": "A flat major thirteenth with notes G# C D# G A# F",
+        "notes": [
+            "G#",
+            "C",
+            "D#",
+            "G",
+            "A#",
+            "F"
+        ]
+    },
+    {
+        "name": "Amaj13",
+        "description": "A major thirteenth with notes A C# E G# B F#",
+        "notes": [
+            "A",
+            "C#",
+            "E",
+            "G#",
+            "B",
+            "F#"
+        ]
+    },
+    {
+        "name": "A#maj13",
+        "description": "A sharp major thirteenth with notes A# D F A C G",
+        "notes": [
+            "A#",
+            "D",
+            "F",
+            "A",
+            "C",
+            "G"
+        ]
+    },
+    {
+        "name": "Bbmaj13",
+        "description": "B flat major thirteenth with notes A# D F A C G",
+        "notes": [
+            "A#",
+            "D",
+            "F",
+            "A",
+            "C",
+            "G"
+        ]
+    },
+    {
+        "name": "Bmaj13",
+        "description": "B major thirteenth with notes B D# F# A# C# G#",
+        "notes": [
+            "B",
+            "D#",
+            "F#",
+            "A#",
+            "C#",
+            "G#"
+        ]
+    },
+    {
+        "name": "C13",
+        "description": "C dominant thirteenth with notes C E G A# D A",
+        "notes": [
+            "C",
+            "E",
+            "G",
+            "A#",
+            "D",
+            "A"
+        ]
+    },
+    {
+        "name": "C#13",
+        "description": "C sharp dominant thirteenth with notes C# F G# B D# A#",
+        "notes": [
+            "C#",
+            "F",
+            "G#",
+            "B",
+            "D#",
+            "A#"
+        ]
+    },
+    {
+        "name": "Db13",
+        "description": "D flat dominant thirteenth with notes C# F G# B D# A#",
+        "notes": [
+            "C#",
+            "F",
+            "G#",
+            "B",
+            "D#",
+            "A#"
+        ]
+    },
+    {
+        "name": "D13",
+        "description": "D dominant thirteenth with notes D F# A C E B",
+        "notes": [
+            "D",
+            "F#",
+            "A",
+            "C",
+            "E",
+            "B"
+        ]
+    },
+    {
+        "name": "D#13",
+        "description": "D sharp dominant thirteenth with notes D# G A# C# F C",
+        "notes": [
+            "D#",
+            "G",
+            "A#",
+            "C#",
+            "F",
+            "C"
+        ]
+    },
+    {
+        "name": "Eb13",
+        "description": "E flat dominant thirteenth with notes D# G A# C# F C",
+        "notes": [
+            "D#",
+            "G",
+            "A#",
+            "C#",
+            "F",
+            "C"
+        ]
+    },
+    {
+        "name": "E13",
+        "description": "E dominant thirteenth with notes E G# B D F# C#",
+        "notes": [
+            "E",
+            "G#",
+            "B",
+            "D",
+            "F#",
+            "C#"
+        ]
+    },
+    {
+        "name": "F13",
+        "description": "F dominant thirteenth with notes F A C D# G D",
+        "notes": [
+            "F",
+            "A",
+            "C",
+            "D#",
+            "G",
+            "D"
+        ]
+    },
+    {
+        "name": "F#13",
+        "description": "F sharp dominant thirteenth with notes F# A# C# E G# D#",
+        "notes": [
+            "F#",
+            "A#",
+            "C#",
+            "E",
+            "G#",
+            "D#"
+        ]
+    },
+    {
+        "name": "Gb13",
+        "description": "G flat dominant thirteenth with notes F# A# C# E G# D#",
+        "notes": [
+            "F#",
+            "A#",
+            "C#",
+            "E",
+            "G#",
+            "D#"
+        ]
+    },
+    {
+        "name": "G13",
+        "description": "G dominant thirteenth with notes G B D F A E",
+        "notes": [
+            "G",
+            "B",
+            "D",
+            "F",
+            "A",
+            "E"
+        ]
+    },
+    {
+        "name": "G#13",
+        "description": "G sharp dominant thirteenth with notes G# C D# F# A# F",
+        "notes": [
+            "G#",
+            "C",
+            "D#",
+            "F#",
+            "A#",
+            "F"
+        ]
+    },
+    {
+        "name": "Ab13",
+        "description": "A flat dominant thirteenth with notes G# C D# F# A# F",
+        "notes": [
+            "G#",
+            "C",
+            "D#",
+            "F#",
+            "A#",
+            "F"
+        ]
+    },
+    {
+        "name": "A13",
+        "description": "A dominant thirteenth with notes A C# E G B F#",
+        "notes": [
+            "A",
+            "C#",
+            "E",
+            "G",
+            "B",
+            "F#"
+        ]
+    },
+    {
+        "name": "A#13",
+        "description": "A sharp dominant thirteenth with notes A# D F G# C G",
+        "notes": [
+            "A#",
+            "D",
+            "F",
+            "G#",
+            "C",
+            "G"
+        ]
+    },
+    {
+        "name": "Bb13",
+        "description": "B flat dominant thirteenth with notes A# D F G# C G",
+        "notes": [
+            "A#",
+            "D",
+            "F",
+            "G#",
+            "C",
+            "G"
+        ]
+    },
+    {
+        "name": "B13",
+        "description": "B dominant thirteenth with notes B D# F# A C# G#",
+        "notes": [
+            "B",
+            "D#",
+            "F#",
+            "A",
+            "C#",
+            "G#"
+        ]
+    },
+    {
+        "name": "Cmaj9#11",
+        "description": "C major sharp eleventh (lydian) with notes C E G B D F#",
+        "notes": [
+            "C",
+            "E",
+            "G",
+            "B",
+            "D",
+            "F#"
+        ]
+    },
+    {
+        "name": "C#maj9#11",
+        "description": "C sharp major sharp eleventh (lydian) with notes C# F G# C D# G",
+        "notes": [
+            "C#",
+            "F",
+            "G#",
+            "C",
+            "D#",
+            "G"
+        ]
+    },
+    {
+        "name": "Dbmaj9#11",
+        "description": "D flat major sharp eleventh (lydian) with notes C# F G# C D# G",
+        "notes": [
+            "C#",
+            "F",
+            "G#",
+            "C",
+            "D#",
+            "G"
+        ]
+    },
+    {
+        "name": "Dmaj9#11",
+        "description": "D major sharp eleventh (lydian) with notes D F# A C# E G#",
+        "notes": [
+            "D",
+            "F#",
+            "A",
+            "C#",
+            "E",
+            "G#"
+        ]
+    },
+    {
+        "name": "D#maj9#11",
+        "description": "D sharp major sharp eleventh (lydian) with notes D# G A# D F A",
+        "notes": [
+            "D#",
+            "G",
+            "A#",
+            "D",
+            "F",
+            "A"
+        ]
+    },
+    {
+        "name": "Ebmaj9#11",
+        "description": "E flat major sharp eleventh (lydian) with notes D# G A# D F A",
+        "notes": [
+            "D#",
+            "G",
+            "A#",
+            "D",
+            "F",
+            "A"
+        ]
+    },
+    {
+        "name": "Emaj9#11",
+        "description": "E major sharp eleventh (lydian) with notes E G# B D# F# A#",
+        "notes": [
+            "E",
+            "G#",
+            "B",
+            "D#",
+            "F#",
+            "A#"
+        ]
+    },
+    {
+        "name": "Fmaj9#11",
+        "description": "F major sharp eleventh (lydian) with notes F A C E G B",
+        "notes": [
+            "F",
+            "A",
+            "C",
+            "E",
+            "G",
+            "B"
+        ]
+    },
+    {
+        "name": "F#maj9#11",
+        "description": "F sharp major sharp eleventh (lydian) with notes F# A# C# F G# C",
+        "notes": [
+            "F#",
+            "A#",
+            "C#",
+            "F",
+            "G#",
+            "C"
+        ]
+    },
+    {
+        "name": "Gbmaj9#11",
+        "description": "G flat major sharp eleventh (lydian) with notes F# A# C# F G# C",
+        "notes": [
+            "F#",
+            "A#",
+            "C#",
+            "F",
+            "G#",
+            "C"
+        ]
+    },
+    {
+        "name": "Gmaj9#11",
+        "description": "G major sharp eleventh (lydian) with notes G B D F# A C#",
+        "notes": [
+            "G",
+            "B",
+            "D",
+            "F#",
+            "A",
+            "C#"
+        ]
+    },
+    {
+        "name": "G#maj9#11",
+        "description": "G sharp major sharp eleventh (lydian) with notes G# C D# G A# D",
+        "notes": [
+            "G#",
+            "C",
+            "D#",
+            "G",
+            "A#",
+            "D"
+        ]
+    },
+    {
+        "name": "Abmaj9#11",
+        "description": "A flat major sharp eleventh (lydian) with notes G# C D# G A# D",
+        "notes": [
+            "G#",
+            "C",
+            "D#",
+            "G",
+            "A#",
+            "D"
+        ]
+    },
+    {
+        "name": "Amaj9#11",
+        "description": "A major sharp eleventh (lydian) with notes A C# E G# B D#",
+        "notes": [
+            "A",
+            "C#",
+            "E",
+            "G#",
+            "B",
+            "D#"
+        ]
+    },
+    {
+        "name": "A#maj9#11",
+        "description": "A sharp major sharp eleventh (lydian) with notes A# D F A C E",
+        "notes": [
+            "A#",
+            "D",
+            "F",
+            "A",
+            "C",
+            "E"
+        ]
+    },
+    {
+        "name": "Bbmaj9#11",
+        "description": "B flat major sharp eleventh (lydian) with notes A# D F A C E",
+        "notes": [
+            "A#",
+            "D",
+            "F",
+            "A",
+            "C",
+            "E"
+        ]
+    },
+    {
+        "name": "Bmaj9#11",
+        "description": "B major sharp eleventh (lydian) with notes B D# F# A# C# F",
+        "notes": [
+            "B",
+            "D#",
+            "F#",
+            "A#",
+            "C#",
+            "F"
+        ]
+    },
+    {
+        "name": "CmM9",
+        "description": "C minor/major ninth with notes C D# G B D",
+        "notes": [
+            "C",
+            "D#",
+            "G",
+            "B",
+            "D"
+        ]
+    },
+    {
+        "name": "C#mM9",
+        "description": "C sharp minor/major ninth with notes C# E G# C D#",
+        "notes": [
+            "C#",
+            "E",
+            "G#",
+            "C",
+            "D#"
+        ]
+    },
+    {
+        "name": "DbmM9",
+        "description": "D flat minor/major ninth with notes C# E G# C D#",
+        "notes": [
+            "C#",
+            "E",
+            "G#",
+            "C",
+            "D#"
+        ]
+    },
+    {
+        "name": "DmM9",
+        "description": "D minor/major ninth with notes D F A C# E",
+        "notes": [
+            "D",
+            "F",
+            "A",
+            "C#",
+            "E"
+        ]
+    },
+    {
+        "name": "D#mM9",
+        "description": "D sharp minor/major ninth with notes D# F# A# D F",
+        "notes": [
+            "D#",
+            "F#",
+            "A#",
+            "D",
+            "F"
+        ]
+    },
+    {
+        "name": "EbmM9",
+        "description": "E flat minor/major ninth with notes D# F# A# D F",
+        "notes": [
+            "D#",
+            "F#",
+            "A#",
+            "D",
+            "F"
+        ]
+    },
+    {
+        "name": "EmM9",
+        "description": "E minor/major ninth with notes E G B D# F#",
+        "notes": [
+            "E",
+            "G",
+            "B",
+            "D#",
+            "F#"
+        ]
+    },
+    {
+        "name": "FmM9",
+        "description": "F minor/major ninth with notes F G# C E G",
+        "notes": [
+            "F",
+            "G#",
+            "C",
+            "E",
+            "G"
+        ]
+    },
+    {
+        "name": "F#mM9",
+        "description": "F sharp minor/major ninth with notes F# A C# F G#",
+        "notes": [
+            "F#",
+            "A",
+            "C#",
+            "F",
+            "G#"
+        ]
+    },
+    {
+        "name": "GbmM9",
+        "description": "G flat minor/major ninth with notes F# A C# F G#",
+        "notes": [
+            "F#",
+            "A",
+            "C#",
+            "F",
+            "G#"
+        ]
+    },
+    {
+        "name": "GmM9",
+        "description": "G minor/major ninth with notes G A# D F# A",
+        "notes": [
+            "G",
+            "A#",
+            "D",
+            "F#",
+            "A"
+        ]
+    },
+    {
+        "name": "G#mM9",
+        "description": "G sharp minor/major ninth with notes G# B D# G A#",
+        "notes": [
+            "G#",
+            "B",
+            "D#",
+            "G",
+            "A#"
+        ]
+    },
+    {
+        "name": "AbmM9",
+        "description": "A flat minor/major ninth with notes G# B D# G A#",
+        "notes": [
+            "G#",
+            "B",
+            "D#",
+            "G",
+            "A#"
+        ]
+    },
+    {
+        "name": "AmM9",
+        "description": "A minor/major ninth with notes A C E G# B",
+        "notes": [
+            "A",
+            "C",
+            "E",
+            "G#",
+            "B"
+        ]
+    },
+    {
+        "name": "A#mM9",
+        "description": "A sharp minor/major ninth with notes A# C# F A C",
+        "notes": [
+            "A#",
+            "C#",
+            "F",
+            "A",
+            "C"
+        ]
+    },
+    {
+        "name": "BbmM9",
+        "description": "B flat minor/major ninth with notes A# C# F A C",
+        "notes": [
+            "A#",
+            "C#",
+            "F",
+            "A",
+            "C"
+        ]
+    },
+    {
+        "name": "BmM9",
+        "description": "B minor/major ninth with notes B D F# A# C#",
+        "notes": [
+            "B",
+            "D",
+            "F#",
+            "A#",
+            "C#"
+        ]
+    },
+    {
+        "name": "Cm9",
+        "description": "C minor ninth with notes C D# G A# D",
+        "notes": [
+            "C",
+            "D#",
+            "G",
+            "A#",
+            "D"
+        ]
+    },
+    {
+        "name": "C#m9",
+        "description": "C sharp minor ninth with notes C# E G# B D#",
+        "notes": [
+            "C#",
+            "E",
+            "G#",
+            "B",
+            "D#"
+        ]
+    },
+    {
+        "name": "Dbm9",
+        "description": "D flat minor ninth with notes C# E G# B D#",
+        "notes": [
+            "C#",
+            "E",
+            "G#",
+            "B",
+            "D#"
+        ]
+    },
+    {
+        "name": "Dm9",
+        "description": "D minor ninth with notes D F A C E",
+        "notes": [
+            "D",
+            "F",
+            "A",
+            "C",
+            "E"
+        ]
+    },
+    {
+        "name": "D#m9",
+        "description": "D sharp minor ninth with notes D# F# A# C# F",
+        "notes": [
+            "D#",
+            "F#",
+            "A#",
+            "C#",
+            "F"
+        ]
+    },
+    {
+        "name": "Ebm9",
+        "description": "E flat minor ninth with notes D# F# A# C# F",
+        "notes": [
+            "D#",
+            "F#",
+            "A#",
+            "C#",
+            "F"
+        ]
+    },
+    {
+        "name": "Em9",
+        "description": "E minor ninth with notes E G B D F#",
+        "notes": [
+            "E",
+            "G",
+            "B",
+            "D",
+            "F#"
+        ]
+    },
+    {
+        "name": "Fm9",
+        "description": "F minor ninth with notes F G# C D# G",
+        "notes": [
+            "F",
+            "G#",
+            "C",
+            "D#",
+            "G"
+        ]
+    },
+    {
+        "name": "F#m9",
+        "description": "F sharp minor ninth with notes F# A C# E G#",
+        "notes": [
+            "F#",
+            "A",
+            "C#",
+            "E",
+            "G#"
+        ]
+    },
+    {
+        "name": "Gbm9",
+        "description": "G flat minor ninth with notes F# A C# E G#",
+        "notes": [
+            "F#",
+            "A",
+            "C#",
+            "E",
+            "G#"
+        ]
+    },
+    {
+        "name": "Gm9",
+        "description": "G minor ninth with notes G A# D F A",
+        "notes": [
+            "G",
+            "A#",
+            "D",
+            "F",
+            "A"
+        ]
+    },
+    {
+        "name": "G#m9",
+        "description": "G sharp minor ninth with notes G# B D# F# A#",
+        "notes": [
+            "G#",
+            "B",
+            "D#",
+            "F#",
+            "A#"
+        ]
+    },
+    {
+        "name": "Abm9",
+        "description": "A flat minor ninth with notes G# B D# F# A#",
+        "notes": [
+            "G#",
+            "B",
+            "D#",
+            "F#",
+            "A#"
+        ]
+    },
+    {
+        "name": "Am9",
+        "description": "A minor ninth with notes A C E G B",
+        "notes": [
+            "A",
+            "C",
+            "E",
+            "G",
+            "B"
+        ]
+    },
+    {
+        "name": "A#m9",
+        "description": "A sharp minor ninth with notes A# C# F G# C",
+        "notes": [
+            "A#",
+            "C#",
+            "F",
+            "G#",
+            "C"
+        ]
+    },
+    {
+        "name": "Bbm9",
+        "description": "B flat minor ninth with notes A# C# F G# C",
+        "notes": [
+            "A#",
+            "C#",
+            "F",
+            "G#",
+            "C"
+        ]
+    },
+    {
+        "name": "Bm9",
+        "description": "B minor ninth with notes B D F# A C#",
+        "notes": [
+            "B",
+            "D",
+            "F#",
+            "A",
+            "C#"
+        ]
+    },
+    {
+        "name": "Cm13",
+        "description": "C minor thirteenth with notes C D# G A# D A",
+        "notes": [
+            "C",
+            "D#",
+            "G",
+            "A#",
+            "D",
+            "A"
+        ]
+    },
+    {
+        "name": "C#m13",
+        "description": "C sharp minor thirteenth with notes C# E G# B D# A#",
+        "notes": [
+            "C#",
+            "E",
+            "G#",
+            "B",
+            "D#",
+            "A#"
+        ]
+    },
+    {
+        "name": "Dbm13",
+        "description": "D flat minor thirteenth with notes C# E G# B D# A#",
+        "notes": [
+            "C#",
+            "E",
+            "G#",
+            "B",
+            "D#",
+            "A#"
+        ]
+    },
+    {
+        "name": "Dm13",
+        "description": "D minor thirteenth with notes D F A C E B",
+        "notes": [
+            "D",
+            "F",
+            "A",
+            "C",
+            "E",
+            "B"
+        ]
+    },
+    {
+        "name": "D#m13",
+        "description": "D sharp minor thirteenth with notes D# F# A# C# F C",
+        "notes": [
+            "D#",
+            "F#",
+            "A#",
+            "C#",
+            "F",
+            "C"
+        ]
+    },
+    {
+        "name": "Ebm13",
+        "description": "E flat minor thirteenth with notes D# F# A# C# F C",
+        "notes": [
+            "D#",
+            "F#",
+            "A#",
+            "C#",
+            "F",
+            "C"
+        ]
+    },
+    {
+        "name": "Em13",
+        "description": "E minor thirteenth with notes E G B D F# C#",
+        "notes": [
+            "E",
+            "G",
+            "B",
+            "D",
+            "F#",
+            "C#"
+        ]
+    },
+    {
+        "name": "Fm13",
+        "description": "F minor thirteenth with notes F G# C D# G D",
+        "notes": [
+            "F",
+            "G#",
+            "C",
+            "D#",
+            "G",
+            "D"
+        ]
+    },
+    {
+        "name": "F#m13",
+        "description": "F sharp minor thirteenth with notes F# A C# E G# D#",
+        "notes": [
+            "F#",
+            "A",
+            "C#",
+            "E",
+            "G#",
+            "D#"
+        ]
+    },
+    {
+        "name": "Gbm13",
+        "description": "G flat minor thirteenth with notes F# A C# E G# D#",
+        "notes": [
+            "F#",
+            "A",
+            "C#",
+            "E",
+            "G#",
+            "D#"
+        ]
+    },
+    {
+        "name": "Gm13",
+        "description": "G minor thirteenth with notes G A# D F A E",
+        "notes": [
+            "G",
+            "A#",
+            "D",
+            "F",
+            "A",
+            "E"
+        ]
+    },
+    {
+        "name": "G#m13",
+        "description": "G sharp minor thirteenth with notes G# B D# F# A# F",
+        "notes": [
+            "G#",
+            "B",
+            "D#",
+            "F#",
+            "A#",
+            "F"
+        ]
+    },
+    {
+        "name": "Abm13",
+        "description": "A flat minor thirteenth with notes G# B D# F# A# F",
+        "notes": [
+            "G#",
+            "B",
+            "D#",
+            "F#",
+            "A#",
+            "F"
+        ]
+    },
+    {
+        "name": "Am13",
+        "description": "A minor thirteenth with notes A C E G B F#",
+        "notes": [
+            "A",
+            "C",
+            "E",
+            "G",
+            "B",
+            "F#"
+        ]
+    },
+    {
+        "name": "A#m13",
+        "description": "A sharp minor thirteenth with notes A# C# F G# C G",
+        "notes": [
+            "A#",
+            "C#",
+            "F",
+            "G#",
+            "C",
+            "G"
+        ]
+    },
+    {
+        "name": "Bbm13",
+        "description": "B flat minor thirteenth with notes A# C# F G# C G",
+        "notes": [
+            "A#",
+            "C#",
+            "F",
+            "G#",
+            "C",
+            "G"
+        ]
+    },
+    {
+        "name": "Bm13",
+        "description": "B minor thirteenth with notes B D F# A C# G#",
+        "notes": [
+            "B",
+            "D",
+            "F#",
+            "A",
+            "C#",
+            "G#"
+        ]
+    },
+    {
+        "name": "Cm11",
+        "description": "C minor eleventh with notes C D# G A# D F",
+        "notes": [
+            "C",
+            "D#",
+            "G",
+            "A#",
+            "D",
+            "F"
+        ]
+    },
+    {
+        "name": "C#m11",
+        "description": "C sharp minor eleventh with notes C# E G# B D# F#",
+        "notes": [
+            "C#",
+            "E",
+            "G#",
+            "B",
+            "D#",
+            "F#"
+        ]
+    },
+    {
+        "name": "Dbm11",
+        "description": "D flat minor eleventh with notes C# E G# B D# F#",
+        "notes": [
+            "C#",
+            "E",
+            "G#",
+            "B",
+            "D#",
+            "F#"
+        ]
+    },
+    {
+        "name": "Dm11",
+        "description": "D minor eleventh with notes D F A C E G",
+        "notes": [
+            "D",
+            "F",
+            "A",
+            "C",
+            "E",
+            "G"
+        ]
+    },
+    {
+        "name": "D#m11",
+        "description": "D sharp minor eleventh with notes D# F# A# C# F G#",
+        "notes": [
+            "D#",
+            "F#",
+            "A#",
+            "C#",
+            "F",
+            "G#"
+        ]
+    },
+    {
+        "name": "Ebm11",
+        "description": "E flat minor eleventh with notes D# F# A# C# F G#",
+        "notes": [
+            "D#",
+            "F#",
+            "A#",
+            "C#",
+            "F",
+            "G#"
+        ]
+    },
+    {
+        "name": "Em11",
+        "description": "E minor eleventh with notes E G B D F# A",
+        "notes": [
+            "E",
+            "G",
+            "B",
+            "D",
+            "F#",
+            "A"
+        ]
+    },
+    {
+        "name": "Fm11",
+        "description": "F minor eleventh with notes F G# C D# G A#",
+        "notes": [
+            "F",
+            "G#",
+            "C",
+            "D#",
+            "G",
+            "A#"
+        ]
+    },
+    {
+        "name": "F#m11",
+        "description": "F sharp minor eleventh with notes F# A C# E G# B",
+        "notes": [
+            "F#",
+            "A",
+            "C#",
+            "E",
+            "G#",
+            "B"
+        ]
+    },
+    {
+        "name": "Gbm11",
+        "description": "G flat minor eleventh with notes F# A C# E G# B",
+        "notes": [
+            "F#",
+            "A",
+            "C#",
+            "E",
+            "G#",
+            "B"
+        ]
+    },
+    {
+        "name": "Gm11",
+        "description": "G minor eleventh with notes G A# D F A C",
+        "notes": [
+            "G",
+            "A#",
+            "D",
+            "F",
+            "A",
+            "C"
+        ]
+    },
+    {
+        "name": "G#m11",
+        "description": "G sharp minor eleventh with notes G# B D# F# A# C#",
+        "notes": [
+            "G#",
+            "B",
+            "D#",
+            "F#",
+            "A#",
+            "C#"
+        ]
+    },
+    {
+        "name": "Abm11",
+        "description": "A flat minor eleventh with notes G# B D# F# A# C#",
+        "notes": [
+            "G#",
+            "B",
+            "D#",
+            "F#",
+            "A#",
+            "C#"
+        ]
+    },
+    {
+        "name": "Am11",
+        "description": "A minor eleventh with notes A C E G B D",
+        "notes": [
+            "A",
+            "C",
+            "E",
+            "G",
+            "B",
+            "D"
+        ]
+    },
+    {
+        "name": "A#m11",
+        "description": "A sharp minor eleventh with notes A# C# F G# C D#",
+        "notes": [
+            "A#",
+            "C#",
+            "F",
+            "G#",
+            "C",
+            "D#"
+        ]
+    },
+    {
+        "name": "Bbm11",
+        "description": "B flat minor eleventh with notes A# C# F G# C D#",
+        "notes": [
+            "A#",
+            "C#",
+            "F",
+            "G#",
+            "C",
+            "D#"
+        ]
+    },
+    {
+        "name": "Bm11",
+        "description": "B minor eleventh with notes B D F# A C# E",
+        "notes": [
+            "B",
+            "D",
+            "F#",
+            "A",
+            "C#",
+            "E"
+        ]
+    },
+    {
+        "name": "C#b9sus",
+        "description": "C sharp suspended fourth flat ninth with notes C# F# G# B D",
+        "notes": [
+            "C#",
+            "F#",
+            "G#",
+            "B",
+            "D"
+        ]
+    },
+    {
+        "name": "Db9sus",
+        "description": "D suspended fourth flat ninth with notes D G A C D#",
+        "notes": [
+            "D",
+            "G",
+            "A",
+            "C",
+            "D#"
+        ]
+    },
+    {
+        "name": "D#b9sus",
+        "description": "D sharp suspended fourth flat ninth with notes D# G# A# C# E",
+        "notes": [
+            "D#",
+            "G#",
+            "A#",
+            "C#",
+            "E"
+        ]
+    },
+    {
+        "name": "Eb9sus",
+        "description": "E suspended fourth flat ninth with notes E A B D F",
+        "notes": [
+            "E",
+            "A",
+            "B",
+            "D",
+            "F"
+        ]
+    },
+    {
+        "name": "F#b9sus",
+        "description": "F sharp suspended fourth flat ninth with notes F# B C# E G",
+        "notes": [
+            "F#",
+            "B",
+            "C#",
+            "E",
+            "G"
+        ]
+    },
+    {
+        "name": "Gb9sus",
+        "description": "G suspended fourth flat ninth with notes G C D F G#",
+        "notes": [
+            "G",
+            "C",
+            "D",
+            "F",
+            "G#"
+        ]
+    },
+    {
+        "name": "G#b9sus",
+        "description": "G sharp suspended fourth flat ninth with notes G# C# D# F# A",
+        "notes": [
+            "G#",
+            "C#",
+            "D#",
+            "F#",
+            "A"
+        ]
+    },
+    {
+        "name": "Ab9sus",
+        "description": "A suspended fourth flat ninth with notes A D E G A#",
+        "notes": [
+            "A",
+            "D",
+            "E",
+            "G",
+            "A#"
+        ]
+    },
+    {
+        "name": "A#b9sus",
+        "description": "A sharp suspended fourth flat ninth with notes A# D# F G# B",
+        "notes": [
+            "A#",
+            "D#",
+            "F",
+            "G#",
+            "B"
+        ]
+    },
+    {
+        "name": "Bb9sus",
+        "description": "B suspended fourth flat ninth with notes B E F# A C",
+        "notes": [
+            "B",
+            "E",
+            "F#",
+            "A",
+            "C"
+        ]
+    },
+    {
+        "name": "Calt7",
+        "description": "C altered with notes C E A# C#",
+        "notes": [
+            "C",
+            "E",
+            "A#",
+            "C#"
+        ]
+    },
+    {
+        "name": "C#alt7",
+        "description": "C sharp altered with notes C# F B D",
+        "notes": [
+            "C#",
+            "F",
+            "B",
+            "D"
+        ]
+    },
+    {
+        "name": "Dbalt7",
+        "description": "D flat altered with notes C# F B D",
+        "notes": [
+            "C#",
+            "F",
+            "B",
+            "D"
+        ]
+    },
+    {
+        "name": "Dalt7",
+        "description": "D altered with notes D F# C D#",
+        "notes": [
+            "D",
+            "F#",
+            "C",
+            "D#"
+        ]
+    },
+    {
+        "name": "D#alt7",
+        "description": "D sharp altered with notes D# G C# E",
+        "notes": [
+            "D#",
+            "G",
+            "C#",
+            "E"
+        ]
+    },
+    {
+        "name": "Ebalt7",
+        "description": "E flat altered with notes D# G C# E",
+        "notes": [
+            "D#",
+            "G",
+            "C#",
+            "E"
+        ]
+    },
+    {
+        "name": "Ealt7",
+        "description": "E altered with notes E G# D F",
+        "notes": [
+            "E",
+            "G#",
+            "D",
+            "F"
+        ]
+    },
+    {
+        "name": "Falt7",
+        "description": "F altered with notes F A D# F#",
+        "notes": [
+            "F",
+            "A",
+            "D#",
+            "F#"
+        ]
+    },
+    {
+        "name": "F#alt7",
+        "description": "F sharp altered with notes F# A# E G",
+        "notes": [
+            "F#",
+            "A#",
+            "E",
+            "G"
+        ]
+    },
+    {
+        "name": "Gbalt7",
+        "description": "G flat altered with notes F# A# E G",
+        "notes": [
+            "F#",
+            "A#",
+            "E",
+            "G"
+        ]
+    },
+    {
+        "name": "Galt7",
+        "description": "G altered with notes G B F G#",
+        "notes": [
+            "G",
+            "B",
+            "F",
+            "G#"
+        ]
+    },
+    {
+        "name": "G#alt7",
+        "description": "G sharp altered with notes G# C F# A",
+        "notes": [
+            "G#",
+            "C",
+            "F#",
+            "A"
+        ]
+    },
+    {
+        "name": "Abalt7",
+        "description": "A flat altered with notes G# C F# A",
+        "notes": [
+            "G#",
+            "C",
+            "F#",
+            "A"
+        ]
+    },
+    {
+        "name": "Aalt7",
+        "description": "A altered with notes A C# G A#",
+        "notes": [
+            "A",
+            "C#",
+            "G",
+            "A#"
+        ]
+    },
+    {
+        "name": "A#alt7",
+        "description": "A sharp altered with notes A# D G# B",
+        "notes": [
+            "A#",
+            "D",
+            "G#",
+            "B"
+        ]
+    },
+    {
+        "name": "Bbalt7",
+        "description": "B flat altered with notes A# D G# B",
+        "notes": [
+            "A#",
+            "D",
+            "G#",
+            "B"
+        ]
+    },
+    {
+        "name": "Balt7",
+        "description": "B altered with notes B D# A C",
+        "notes": [
+            "B",
+            "D#",
+            "A",
+            "C"
+        ]
+    },
+    {
+        "name": "C7b9",
+        "description": "C dominant flat ninth with notes C E G A# C#",
+        "notes": [
+            "C",
+            "E",
+            "G",
+            "A#",
+            "C#"
+        ]
+    },
+    {
+        "name": "C#7b9",
+        "description": "C sharp dominant flat ninth with notes C# F G# B D",
+        "notes": [
+            "C#",
+            "F",
+            "G#",
+            "B",
+            "D"
+        ]
+    },
+    {
+        "name": "Db7b9",
+        "description": "D flat dominant flat ninth with notes C# F G# B D",
+        "notes": [
+            "C#",
+            "F",
+            "G#",
+            "B",
+            "D"
+        ]
+    },
+    {
+        "name": "D7b9",
+        "description": "D dominant flat ninth with notes D F# A C D#",
+        "notes": [
+            "D",
+            "F#",
+            "A",
+            "C",
+            "D#"
+        ]
+    },
+    {
+        "name": "D#7b9",
+        "description": "D sharp dominant flat ninth with notes D# G A# C# E",
+        "notes": [
+            "D#",
+            "G",
+            "A#",
+            "C#",
+            "E"
+        ]
+    },
+    {
+        "name": "Eb7b9",
+        "description": "E flat dominant flat ninth with notes D# G A# C# E",
+        "notes": [
+            "D#",
+            "G",
+            "A#",
+            "C#",
+            "E"
+        ]
+    },
+    {
+        "name": "E7b9",
+        "description": "E dominant flat ninth with notes E G# B D F",
+        "notes": [
+            "E",
+            "G#",
+            "B",
+            "D",
+            "F"
+        ]
+    },
+    {
+        "name": "F7b9",
+        "description": "F dominant flat ninth with notes F A C D# F#",
+        "notes": [
+            "F",
+            "A",
+            "C",
+            "D#",
+            "F#"
+        ]
+    },
+    {
+        "name": "F#7b9",
+        "description": "F sharp dominant flat ninth with notes F# A# C# E G",
+        "notes": [
+            "F#",
+            "A#",
+            "C#",
+            "E",
+            "G"
+        ]
+    },
+    {
+        "name": "Gb7b9",
+        "description": "G flat dominant flat ninth with notes F# A# C# E G",
+        "notes": [
+            "F#",
+            "A#",
+            "C#",
+            "E",
+            "G"
+        ]
+    },
+    {
+        "name": "G7b9",
+        "description": "G dominant flat ninth with notes G B D F G#",
+        "notes": [
+            "G",
+            "B",
+            "D",
+            "F",
+            "G#"
+        ]
+    },
+    {
+        "name": "G#7b9",
+        "description": "G sharp dominant flat ninth with notes G# C D# F# A",
+        "notes": [
+            "G#",
+            "C",
+            "D#",
+            "F#",
+            "A"
+        ]
+    },
+    {
+        "name": "Ab7b9",
+        "description": "A flat dominant flat ninth with notes G# C D# F# A",
+        "notes": [
+            "G#",
+            "C",
+            "D#",
+            "F#",
+            "A"
+        ]
+    },
+    {
+        "name": "A7b9",
+        "description": "A dominant flat ninth with notes A C# E G A#",
+        "notes": [
+            "A",
+            "C#",
+            "E",
+            "G",
+            "A#"
+        ]
+    },
+    {
+        "name": "A#7b9",
+        "description": "A sharp dominant flat ninth with notes A# D F G# B",
+        "notes": [
+            "A#",
+            "D",
+            "F",
+            "G#",
+            "B"
+        ]
+    },
+    {
+        "name": "Bb7b9",
+        "description": "B flat dominant flat ninth with notes A# D F G# B",
+        "notes": [
+            "A#",
+            "D",
+            "F",
+            "G#",
+            "B"
+        ]
+    },
+    {
+        "name": "B7b9",
+        "description": "B dominant flat ninth with notes B D# F# A C",
+        "notes": [
+            "B",
+            "D#",
+            "F#",
+            "A",
+            "C"
+        ]
     }
 ]
