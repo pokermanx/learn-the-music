@@ -63,7 +63,9 @@ export class AppComponent implements OnInit {
       return this.layout[value - 1].legend;
     },
     getLegend: (value: number): string => {
-      return value % 7 === 2 ? this.layout[value - 1].octave.toString() : '';
+      return (this.hand ? value % 7 === 2 : value % 7 === 4) 
+        ? this.layout[value - 1].octave.toString() 
+        : '';
     },
   };
   manualRefresh: EventEmitter<void> = new EventEmitter<void>();
