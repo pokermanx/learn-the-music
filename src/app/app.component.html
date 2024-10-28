@@ -3,7 +3,7 @@
   <div class="slider-wrapper">
     <ngx-slider
       [(value)]="timeoutValue"
-      [options]="options"
+      [options]="intervalSliderOptions"
       (valueChange)="sliderValueChanged$.next($event)"
     ></ngx-slider>
   </div>
@@ -25,15 +25,6 @@
     />
     <label for="chords">Акорди</label>
   </div>
-  <div class="checkbox-wrapper">
-    <input
-      id="simpleOctave"
-      type="checkbox"
-      [(ngModel)]="simpleOctave"
-      (ngModelChange)="onChangeSimpleOctave()"
-    />
-    <label for="simpleOctave">Тільки перша/мала октава</label>
-  </div>
   <div class="hand-switch">
     <label for="chords">Рука</label>
 
@@ -51,6 +42,16 @@
 </div>
 
 <div class="wrapper">
+  <div class="notes-selector">
+    <ngx-slider
+      [(value)]="floorNote"
+      [(highValue)]="ceilNote"
+      [options]="octaveSliderOptions"
+      (valueChange)="noteRangeValueChanged$.next($event)"
+      (highValueChange)="noteRangeValueChanged$.next($event)"
+      [manualRefresh]="manualRefresh"
+      ></ngx-slider>
+  </div>
   <img *ngIf="hand" src="./t-clef.png" class="clef t-clef" />
   <img *ngIf="!hand" src="./b-clef.webp" class="clef b-clef" />
   <ul class="lines">
@@ -60,32 +61,17 @@
     <li></li>
     <li></li>
   </ul>
-  <ul *ngIf="!chords" class="notes">
+  <ul class="notes">
     <li
-      *ngFor="let note of notes"
-      [id]="note.id"
-      [class.active]="note.active"
-      [class.crossed]="note.showTheLine"
-      [class.shifted-up]="simpleOctave && !hand"
-      [class.shifted-down]="simpleOctave && hand"
-    >
-      <span></span>
-      <span *ngIf="tips" class="tip">{{ note.legend }}</span>
-    </li>
-  </ul>
-  <ul *ngIf="chords" class="chords">
-    <li
-      *ngFor="let note of notes"
+      *ngFor="let note of layout"
       [id]="note.id"
       [class.active]="note.active"
       [class.crossed]="note.showTheLine"
       [class.shifted]="note.shift"
-      [class.shifted-up]="simpleOctave && !hand"
-      [class.shifted-down]="simpleOctave && hand"
     >
-      <img *ngIf="note.isSharp" src="./sharp.png" class="sharp">
+      <img *ngIf="note.isSharp" src="./sharp.png" class="sharp" />
       <span></span>
-      <span *ngIf="tips" class="tip">{{ note.legend }}</span>
+      <span *ngIf="tips" class="tip">{{ note.legend }}{{ note.isSharp ? '#' : '' }}</span>
     </li>
   </ul>
 </div>
