@@ -62,6 +62,9 @@ export class AppComponent implements OnInit {
     translate: (value: number, label: LabelType): string => {
       return this.layout[value - 1].legend;
     },
+    getLegend: (value: number): string => {
+      return value % 7 === 2 ? this.layout[value - 1].octave.toString() : '';
+    },
   };
   manualRefresh: EventEmitter<void> = new EventEmitter<void>();
 
@@ -148,10 +151,10 @@ export class AppComponent implements OnInit {
       : true;
     this.floorNote = this.checkSettingExists(settings, 'floorNote')
       ? settings.floorNote
-      : 10;
+      : 14;
     this.ceilNote = this.checkSettingExists(settings, 'ceilNote')
       ? settings.ceilNote
-      : 18;
+      : 21;
   }
 
   private checkSettingExists(settings: any, settingName: string) {

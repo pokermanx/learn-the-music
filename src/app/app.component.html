@@ -50,7 +50,7 @@
       (valueChange)="noteRangeValueChanged$.next($event)"
       (highValueChange)="noteRangeValueChanged$.next($event)"
       [manualRefresh]="manualRefresh"
-      ></ngx-slider>
+    ></ngx-slider>
   </div>
   <img *ngIf="hand" src="./t-clef.png" class="clef t-clef" />
   <img *ngIf="!hand" src="./b-clef.webp" class="clef b-clef" />
@@ -71,7 +71,9 @@
     >
       <img *ngIf="note.isSharp" src="./sharp.png" class="sharp" />
       <span></span>
-      <span *ngIf="tips" class="tip">{{ note.legend }}{{ note.isSharp ? '#' : '' }}</span>
+      <span *ngIf="tips" class="tip"
+        >{{ note.legend }}{{ note.isSharp ? "#" : "" }}</span
+      >
     </li>
   </ul>
 </div>
