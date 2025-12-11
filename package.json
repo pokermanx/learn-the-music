@@ -19,9 +19,14 @@
     "@angular/platform-browser": "^18.2.0",
     "@angular/platform-browser-dynamic": "^18.2.0",
     "@angular/router": "^18.2.0",
+    "@ng-select/ng-select": "^13.9.1",
+    "@tonejs/piano": "^0.2.1",
     "lodash-es": "^4.17.21",
     "rxjs": "~7.8.0",
+    "tone": "^15.0.4",
     "tslib": "^2.3.0",
+    "web-midi-api": "^2.3.3",
+    "webmidi": "^3.1.11",
     "zone.js": "~0.14.10"
   },
   "devDependencies": {

@@ -39,6 +39,20 @@
       <div class="layer"></div>
     </div>
   </div>
+  <div *ngIf="midiInputs.length" class="midi-select">
+    <label for="midi-input">MIDI</label>
+
+    <ng-select
+      id="midi-input"
+      [items]="midiInputs"
+      bindLabel="name"
+      bindValue="name"
+      [(ngModel)]="currentMidiInputName"
+      (ngModelChange)="onChangeMidiInput()"
+    >
+    </ng-select>
+  </div>
+  <button *ngIf="!midiInputs.length" (click)="initMIDI()">Сканувати MIDI</button>
 </div>
 
 <div class="wrapper">
@@ -68,6 +82,7 @@
       [class.active]="note.active"
       [class.crossed]="note.showTheLine"
       [class.shifted]="note.shift"
+      [class.highlight]="note.highlight"
     >
       <img *ngIf="note.isSharp" src="./sharp.png" class="sharp" />
       <span></span>

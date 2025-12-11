@@ -1,4 +1,12 @@
-import { Component, EventEmitter, OnInit } from '@angular/core';
+import 'web-midi-api';
+
+import {
+  ChangeDetectorRef,
+  Component,
+  EventEmitter,
+  Inject,
+  OnInit,
+} from '@angular/core';
 import { RouterOutlet } from '@angular/router';
 import { Chord, Note } from '../lib/models/note.model';
 import {
@@ -18,11 +26,15 @@ import { CommonModule } from '@angular/common';
 import { FormsModule } from '@angular/forms';
 import chordsData from '../lib/data/chords.json';
 import { uniq } from 'lodash-es';
+import { NgSelectComponent } from '@ng-select/ng-select';
+import { MIDIInput } from '../lib/models/midi.model';
+import { notesMap } from '../lib/data/notes.map';
+import { Piano } from '@tonejs/piano/build/piano/Piano';
 
 /**
  * TODO:
  * Configurable chords
- * Midi input
+ * Pedal and velocity handling for MIDI
  * Wait for keypress before moving forward
  * Add Sharp/Flat setting to randomly insert
  */
@@ -30,7 +42,13 @@ import { uniq } from 'lodash-es';
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [RouterOutlet, NgxSliderModule, CommonModule, FormsModule],
+  imports: [
+    RouterOutlet,
+    NgxSliderModule,
+    CommonModule,
+    FormsModule,
+    NgSelectComponent,
+  ],
   templateUrl: './app.component.html',
   styleUrl: './app.component.scss',
 })
@@ -63,8 +81,8 @@ export class AppComponent implements OnInit {
       return this.layout[value - 1].legend;
     },
     getLegend: (value: number): string => {
-      return (this.hand ? value % 7 === 2 : value % 7 === 4) 
-        ? this.layout[value - 1].octave.toString() 
+      return (this.hand ? value % 7 === 2 : value % 7 === 4)
+        ? this.layout[value - 1].octave.toString()
         : '';
     },
   };
@@ -85,7 +103,27 @@ export class AppComponent implements OnInit {
     ['C', 'До'],
   ]);
 
+  midiInputs: MIDIInput[] = [];
+  currentMidiInput!: MIDIInput;
+  currentMidiInputName!: string;
+
+  piano!: Piano;
+
+  constructor(private cdRef: ChangeDetectorRef) {}
+
   ngOnInit(): void {
+    const piano = new Piano({
+      velocities: 5,
+    });
+
+    piano.toDestination();
+    piano.load().then(() => {
+      console.log('piano loaded!');
+      this.piano = piano;
+      // piano.keyDown({ note: 'C#4' });
+    });
+
+    this.initMIDI();
     console.log(chordsData);
 
     this.loadSettings();
@@ -99,7 +137,10 @@ export class AppComponent implements OnInit {
       )
       .subscribe((value: number) => {
         this.saveSettings();
-        this.startGameLoop(value);
+        if (!this.currentMidiInput) {
+          // Game entry point
+          this.startGameLoop(value);
+        }
       });
 
     this.noteRangeValueChanged$.pipe(debounceTime(400)).subscribe(() => {
@@ -131,6 +172,42 @@ export class AppComponent implements OnInit {
     this.manualRefresh.emit();
   }
 
+  onChangeMidiInput() {
+    this.setActiveMIDIDevice();
+    this.saveSettings();
+  }
+
+  initMIDI() {
+    const onSuccessCallback = (access: any) => {
+      // console.log(access.inputs.values().toArray());
+      // this.midiInputs = access.inputs.values().toArray();
+
+      // var input = access.inputs.values().next().value;
+      access.inputs.values().every((i: any) => {
+        this.midiInputs.push(i);
+      });
+
+      if (this.currentMidiInputName) {
+        this.setActiveMIDIDevice();
+      }
+
+      console.log(this.midiInputs);
+    };
+
+    const onErrorCallback = (err: any) => {
+      console.log('uh-oh! Something went wrong! Error code: ' + err.code);
+    };
+
+    navigator.requestMIDIAccess().then(onSuccessCallback, onErrorCallback);
+  }
+
+  private setActiveMIDIDevice() {
+    this.currentMidiInput = this.midiInputs.find(
+      (x) => x.name === this.currentMidiInputName
+    )!;
+    this.startGameLoop(this.currentMidiInput ? undefined : this.timeoutValue);
+  }
+
   private loadSettings() {
     let settings;
 
@@ -157,6 +234,12 @@ export class AppComponent implements OnInit {
     this.ceilNote = this.checkSettingExists(settings, 'ceilNote')
       ? settings.ceilNote
       : 21;
+    this.currentMidiInputName = this.checkSettingExists(
+      settings,
+      'currentMidiInputName'
+    )
+      ? settings.currentMidiInputName
+      : undefined;
   }
 
   private checkSettingExists(settings: any, settingName: string) {
@@ -173,18 +256,96 @@ export class AppComponent implements OnInit {
         tips: this.tips,
         floorNote: this.floorNote,
         ceilNote: this.ceilNote,
+        currentMidiInputName: this.currentMidiInputName,
       })
     );
   }
 
-  private startGameLoop(intervalValue: number) {
+  private startGameLoop(intervalValue?: number) {
     this.resetNotes();
-
-    let lastNote: Note;
-    let lastChord: Chord;
 
     if (this.questionInterval$) {
       this.questionInterval$.unsubscribe();
+    }
+
+    let lastNote!: Note;
+    let lastChord: Chord;
+
+    if (this.currentMidiInput) {
+      let current;
+
+      const setNextNote = () => {
+        if (lastNote) {
+          lastNote.active = false;
+        }
+
+        do {
+          current =
+            this.activeNotes[
+              Math.floor(Math.random() * this.activeNotes.length)
+            ];
+        } while (
+          this.activeNotes.length !== 1 &&
+          lastNote &&
+          current &&
+          lastNote.id === current.id
+        );
+
+        lastNote = current;
+
+        if (current) {
+          current.active = true;
+        }
+      };
+
+      setNextNote();
+
+      this.currentMidiInput.onmidimessage = (message: any) => {
+        const command = message.data[0];
+        let note = notesMap[message.data[1]];
+        // const velocity = message.data.length > 2 ? message.data[2] : 0;
+        console.log('MIDI data: ', command, note);
+
+        const isSharp = note.includes('#');
+
+        if (isSharp) {
+          note = note.split('#').join('');
+        }
+
+        const parts = note.split('');
+
+        const engNote = parts.shift();
+        const octave = +parts.join('');
+        const key = this.layout.find(
+          (x) => x.name === engNote && x.octave === octave - (this.hand ? 4 : 3)
+        );
+
+        if (command === 144) {
+          if (key) {
+            key.highlight = true;
+          }
+
+          if (key?.active) {
+            setNextNote();
+          }
+          this.piano.keyDown({ midi: message.data[1], velocity: 0.32 });
+        } else if (command === 128) {
+          if (key) {
+            key.highlight = false;
+          }
+          this.piano.keyUp({ midi: message.data[1] });
+        }
+
+        this.setTheLines();
+        this.setShifts();
+        this.cdRef.detectChanges();
+      };
+    }
+
+    if (!intervalValue && !this.currentMidiInput) {
+      throw new Error('Interval value is not set');
+    } else if (!intervalValue) {
+      return;
     }
 
     this.questionInterval$ = interval(intervalValue)

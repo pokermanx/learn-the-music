@@ -6,6 +6,7 @@ export type Note = {
   isSharp?: boolean;
   showTheLine?: boolean;
   shift?: boolean;
+  highlight?: boolean;
   octave: number;
 };
 
