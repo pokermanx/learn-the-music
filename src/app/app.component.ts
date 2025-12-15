@@ -4,10 +4,9 @@ import {
   ChangeDetectorRef,
   Component,
   EventEmitter,
-  Inject,
+  HostListener,
   OnInit,
 } from '@angular/core';
-import { RouterOutlet } from '@angular/router';
 import { Chord, Note } from '../lib/models/note.model';
 import {
   LabelType,
@@ -25,11 +24,11 @@ import {
 import { CommonModule } from '@angular/common';
 import { FormsModule } from '@angular/forms';
 import chordsData from '../lib/data/chords.json';
-import { uniq } from 'lodash-es';
+import { set, uniq } from 'lodash-es';
 import { NgSelectComponent } from '@ng-select/ng-select';
 import { MIDIInput } from '../lib/models/midi.model';
 import { notesMap } from '../lib/data/notes.map';
-import { Piano } from '@tonejs/piano/build/piano/Piano';
+import Soundfont from 'soundfont-player';
 
 /**
  * TODO:
@@ -42,13 +41,7 @@ import { Piano } from '@tonejs/piano/build/piano/Piano';
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [
-    RouterOutlet,
-    NgxSliderModule,
-    CommonModule,
-    FormsModule,
-    NgSelectComponent,
-  ],
+  imports: [NgxSliderModule, CommonModule, FormsModule, NgSelectComponent],
   templateUrl: './app.component.html',
   styleUrl: './app.component.scss',
 })
@@ -107,21 +100,19 @@ export class AppComponent implements OnInit {
   currentMidiInput!: MIDIInput;
   currentMidiInputName!: string;
 
-  piano!: Piano;
+  piano!: Soundfont.Player;
+
+  replayNoteState!: string;
+  private audioCtx = new AudioContext();
 
   constructor(private cdRef: ChangeDetectorRef) {}
 
   ngOnInit(): void {
-    const piano = new Piano({
-      velocities: 5,
-    });
-
-    piano.toDestination();
-    piano.load().then(() => {
-      console.log('piano loaded!');
-      this.piano = piano;
-      // piano.keyDown({ note: 'C#4' });
-    });
+    // from(Soundfont.instrument(this.audioCtx, 'acoustic_grand_piano')).subscribe(
+    //   (piano) => {
+    //     this.piano = piano;
+    //   }
+    // );
 
     this.initMIDI();
     console.log(chordsData);
@@ -190,8 +181,6 @@ export class AppComponent implements OnInit {
       if (this.currentMidiInputName) {
         this.setActiveMIDIDevice();
       }
-
-      console.log(this.midiInputs);
     };
 
     const onErrorCallback = (err: any) => {
@@ -205,7 +194,23 @@ export class AppComponent implements OnInit {
     this.currentMidiInput = this.midiInputs.find(
       (x) => x.name === this.currentMidiInputName
     )!;
-    this.startGameLoop(this.currentMidiInput ? undefined : this.timeoutValue);
+
+    const dummyMidiOut = {
+      onmidimessage: () => console.log('Soundfont is not listening'),
+    };
+    this.startGameLoop(
+      this.currentMidiInput ? undefined : this.timeoutValue,
+      dummyMidiOut
+    );
+
+    Soundfont.instrument(this.audioCtx, 'acoustic_grand_piano').then(
+      (piano) => {
+        this.piano = piano;
+        piano.listenToMidi(dummyMidiOut, {
+          gain: (vel: any) => (vel / 127) * 5,
+        });
+      }
+    );
   }
 
   private loadSettings() {
@@ -261,7 +266,7 @@ export class AppComponent implements OnInit {
     );
   }
 
-  private startGameLoop(intervalValue?: number) {
+  private startGameLoop(intervalValue?: number, dummyMidiOut?: any) {
     this.resetNotes();
 
     if (this.questionInterval$) {
@@ -272,7 +277,7 @@ export class AppComponent implements OnInit {
     let lastChord: Chord;
 
     if (this.currentMidiInput) {
-      let current;
+      let current: any;
 
       const setNextNote = () => {
         if (lastNote) {
@@ -299,17 +304,15 @@ export class AppComponent implements OnInit {
       };
 
       setNextNote();
-
       this.currentMidiInput.onmidimessage = (message: any) => {
+        dummyMidiOut.onmidimessage(message);
         const command = message.data[0];
         let note = notesMap[message.data[1]];
-        // const velocity = message.data.length > 2 ? message.data[2] : 0;
-        console.log('MIDI data: ', command, note);
 
         const isSharp = note.includes('#');
-
         if (isSharp) {
           note = note.split('#').join('');
+          return;
         }
 
         const parts = note.split('');
@@ -324,16 +327,23 @@ export class AppComponent implements OnInit {
           if (key) {
             key.highlight = true;
           }
-
-          if (key?.active) {
-            setNextNote();
-          }
-          this.piano.keyDown({ midi: message.data[1], velocity: 0.32 });
         } else if (command === 128) {
           if (key) {
             key.highlight = false;
           }
-          this.piano.keyUp({ midi: message.data[1] });
+
+          if (key?.active) {
+            setNextNote();
+
+            setTimeout(() => {
+              if (this.piano) {
+                this.replayNoteState = `${current.name}${
+                  current.octave + (this.hand ? 4 : 3)
+                }`;
+                this.replayNote();
+              }
+            }, 200);
+          }
         }
 
         this.setTheLines();
@@ -601,5 +611,14 @@ export class AppComponent implements OnInit {
     }
 
     return indexes;
+  }
+
+  @HostListener('window:keydown.space')
+  replayNote() {
+    this.piano.play(this.replayNoteState);
+
+    setTimeout(() => {
+      this.piano.stop();
+    }, 200);
   }
 }

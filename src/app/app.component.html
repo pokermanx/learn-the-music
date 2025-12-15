@@ -52,7 +52,9 @@
     >
     </ng-select>
   </div>
-  <button *ngIf="!midiInputs.length" (click)="initMIDI()">Сканувати MIDI</button>
+  <button *ngIf="!midiInputs.length" (click)="initMIDI()">
+    Сканувати MIDI
+  </button>
 </div>
 
 <div class="wrapper">
@@ -84,11 +86,13 @@
       [class.shifted]="note.shift"
       [class.highlight]="note.highlight"
     >
-      <img *ngIf="note.isSharp" src="./sharp.png" class="sharp" />
+      @if (note.isSharp) {
+        <img src="./sharp.png" class="sharp" />
+      }
       <span></span>
-      <span *ngIf="tips" class="tip"
-        >{{ note.legend }}{{ note.isSharp ? "#" : "" }}</span
-      >
+      @if (tips) {
+        <span class="tip">{{ note.legend }}{{ note.isSharp ? "#" : "" }}</span>
+      }
     </li>
   </ul>
 </div>
